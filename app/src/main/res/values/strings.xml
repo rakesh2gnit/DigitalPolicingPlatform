@@ -1,0 +1,945 @@
+<resources>
+    <string name="app_name">DigitalPolicingPlatform</string>
+    <string name="map_release_key">AIzaSyAMktZen8F1lPpkkTDjo1TqRiH3O4vnfFI</string>
+
+    <string name="default_notification_channel_id">DEFAULT_CHANNEL_ID</string>
+    <string name="no_details_available">No details available!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="session_expired">Session expired, Please login again !</string>
+    <string name="permission_required">Permission required</string>
+    <string name="storage_permission_granted">Storage permission granted</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_storage">Storage</string>
+    <string name="title_contact">Contact</string>
+    <string name="no_network">Network not available</string>
+    <string name="wifi_enable">WiFi enable</string>
+    <string name="mobile_data_enable">Mobile data enable</string>
+
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="delete_confirmation_file">Do you want to delete </string>
+    <string name="delete_confirmation_photo">Do you want to delete this photo?</string>
+    <string name="doc_validation">Only .doc, .docx, .xls, .xlsx, .ppt, .pptx and .pdf file should be attached</string>
+    <string name="attached_validation"> already attached!</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="capture_image">Capture</string>
+    <string name="browse_image">Browse</string>
+    <string name="map">Map</string>
+    <string name="start_fresh">Start Afresh</string>
+    <string name="confirm">Confirm</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="return_to">Return to</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="load_data">Load Data</string>
+    <string name="no_file">No file chosen</string>
+    <string name="attached_file">Attached file : </string>
+    <string name="description">Description</string>
+    <string name="select_file">Select the files to attach</string>
+    <string name="hint_photo_description">Enter Description</string>
+    <string name="max_photo_taken">Maximum photo taken!</string>
+    <string name="max_documents_taken">Maximum documents attached!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="sub_process_header">Sub-Process List</string>
+    <string name="control_pannel">Control Panel</string>
+    <string name="tor">TOR</string>
+    <string name="stop_search">Stop \n&amp; Search</string>
+    <string name="pocket_book">Pocketbook</string>
+    <string name="crime">Crime</string>
+    <string name="domestic_abuse">Domestic Abuse</string>
+    <string name="witness_statement">Witness Statement</string>
+    <string name="investigation">Investigation</string>
+    <string name="incident">Incident</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="problem_solving">Problem Solving</string>
+    <string name="media">Media</string>
+
+    <string name="fds_search">FDS Search</string>
+    <string name="tor_creation">TOR CREATION</string>
+    <string name="stop_process">STOP &amp; SEARCH</string>
+    <string name="enter_info">Enter Info</string>
+    <string name="select">Select</string>
+    <string name="choose_officer">Choose Officer</string>
+    <string name="choose_person">Choose Person</string>
+    <string name="choose_vehicle">Choose Vehicle</string>
+    <string name="choose_team">Choose Team</string>
+    <string name="enter_manually">Enter Manually</string>
+    <string name="choose_address">Choose Address by pin pointing</string>
+    <string name="select_address">Choose Address</string>
+    <string name="select_date">Choose Date</string>
+    <string name="warning_list">Warning List</string>
+    <string name="no_data">No data available!</string>
+    <string name="select_cases">Choose Cases</string>
+    <string name="location_on_map">Location on Map</string>
+
+    <!--Alert message of process flow-->
+    <string name="not_understand_answer">Sorry! I am not able to understand. Please try again!</string>
+    <string name="no_answer">Sorry! Answer list is not available</string>
+    <string name="completed">Congratulations!! Your process is completed.</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="enter_valid_mobile">Enter valid mobile number</string>
+    <string name="enter_valid_postcode">Enter valid Postcode</string>
+    <string name="field_cannot_blank">Field can not be blank</string>
+    <string name="hint_customer_code">Customer Code</string>
+    <string name="hint_username">Username</string>
+
+    <string name="login">Login</string>
+    <string name="easy_pin">Easy Pin</string>
+    <string name="icon">Icon</string>
+    <string name="view_mor">View More</string>
+    <string name="view_less">View Less</string>
+
+    <string name="name">Name </string>
+    <string name="licence_no">Licenece No : </string>
+    <string name="validity">Valid Till : </string>
+    <string name="weapon_type">Weapon Type :</string>
+    <string name="address">Address :</string>
+
+    <string name="vrm">VRM : </string>
+    <string name="make">Make : </string>
+    <string name="model">Model :</string>
+    <string name="color">Color :</string>
+    <string name="lost">Lost/Stolen :</string>
+
+    <string name="house_no">House No : </string>
+    <string name="street">Street : </string>
+    <string name="city">City :</string>
+    <string name="country">Country :</string>
+
+    <!--Control Panel related label-->
+    <string name="my_dashboard">Dashboard</string>
+    <string name="my_surroundings">My Surroundings</string>
+    <string name="to_do">To Do</string>
+    <string name="pending_actions">Pending Actions</string>
+    <string name="statistics">Statistics</string>
+    <string name="briefing">Briefing</string>
+    <string name="out_of_station">Out of Station</string>
+    <string name="yesterday">(Yesterday)</string>
+    <string name="mine">Mine</string>
+    <string name="team">Team</string>
+    <string name="more">More</string>
+    <string name="more_dot">More>></string>
+    <string name="home">Home</string>
+    <string name="task">Task</string>
+    <string name="witness">Witness</string>
+    <string name="time_left">Time Left</string>
+    <string name="user_id">User ID</string>
+    <string name="collar_id">Collar ID</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="forgot_pin"><u>Forgot Pin</u></string>
+    <string name="virtual_assistance">Virtual Assistant</string>
+    <string name="notification">Notifications</string>
+    <string name="intelligence_info">Intelligence information</string>
+    <string name="method_utilise">Method to be utilised</string>
+    <string name="aim">Aim</string>
+    <string name="officer_safety">Officer Safety</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="search">Search</string>
+    <string name="pending">Pending</string>
+    <string name="persons">Persons</string>
+    <string name="cases_persons">Case Persons</string>
+    <string name="vehicle">Vehicles</string>
+    <string name="images">Images</string>
+    <string name="officers">Officers</string>
+    <string name="mark_smith">Mark Smith</string>
+    <string name="constable">Constable</string>
+    <string name="add_log">Add Log</string>
+    <string name="enter_remark">Enter your remarks here..</string>
+    <string name="submit">Submit</string>
+    <string name="previous_log">Previous Logs</string>
+    <string name="no_log">No Logs found.</string>
+    <string name="dob">DOB</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="type">Type</string>
+    <string name="branch">Branch</string>
+    <string name="address_no_colon">Address</string>
+    <string name="person_details">Person Details</string>
+    <string name="pageCount">2/10</string>
+    <string name="crime_detail">Crime Details</string>
+    <string name="domestic_abuse_desc">Domestic abuse done by John smith on Marry Rosemarry.</string>
+    <string name="victim_detail">Victim details</string>
+    <string name="marry_rosemarry">Marry Rosemarry</string>
+    <string name="suspect_detail">Suspect details</string>
+    <string name="office_incharge">Officer in charge</string>
+    <string name="incident_details">Incident Details</string>
+    <string name="robbery">Robbery</string>
+    <string name="reporting_person">Reporting Person</string>
+    <string name="view_more">Click to view more details</string>
+    <string name="task_details">Task Details</string>
+    <string name="priority_arrest">Priority and Arrest</string>
+    <string name="quick_arrest">Quickly Arrest the person</string>
+    <string name="highly_dangerous">Highly dangerous person</string>
+    <string name="handcuffs">Handcuffs can be used</string>
+    <string name="arrest_custody">Arrest and take into custody</string>
+    <string name="be_safe">Be safe and secure</string>
+    <string name="mark_comleted">Mark as Complete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <!--PNC Details header lable-->
+    <string name="pole_nominal_header">Pole Nominal Details</string>
+    <string name="pole_vehicle_header">Pole Vehicle Details</string>
+    <string name="pole_address_header">Pole Address Details</string>
+
+    <!--PNC Details header lable-->
+    <string name="pnc_nominal_header">PNC Nominal Details</string>
+    <string name="pnc_vehicle_header">PNC Vehicle Details</string>
+
+    <!--NFLMS Details header lable-->
+    <string name="nflms_nominal_header">NFLMS Nominal Details</string>
+    <string name="nflms_address_header">NFLMS Address Details</string>
+
+    <!--QAS Details header lable-->
+    <string name="qas_nominal_header">QAS Nominal Details</string>
+    <string name="qas_address_header">QAS Address Details</string>
+
+    <!--DL Details header lable-->
+    <string name="dl_nominal_header">DL Nominal Details</string>
+    <string name="dl_dlcheck_header">DL Check Details</string>
+
+    <!--STOPS Details header lable-->
+    <string name="stops_nominal_header">STOPS Nominal Details</string>
+    <string name="stops_address_header">STOPS Address Details</string>
+    <string name="stops_vehicle_header">STOPS Vehicle Details</string>
+
+    <string name="image">Images</string>
+    <string name="further_information">Further Information</string>
+    <string name="person">Persons</string>
+    <string name="investigations">Investigations</string>
+    <string name="investigation_details">Investigation Details</string>
+    <string name="court_warrant_desc">Court Warrant Description</string>
+    <string name="intelligence_report">Intelligence Reports</string>
+    <string name="court_warrants">Court Warrants</string>
+    <string name="cases">Cases</string>
+    <string name="dl_check">DL Check</string>
+    <string name="linked_cases">Linked Cases</string>
+    <string name="locations">Locations</string>
+    <string name="custody_records">Custody Records</string>
+    <string name="communication">Communication Details</string>
+    <string name="comm_description">Comm Description</string>
+    <string name="communications">Communication</string>
+    <string name="operation">Operations</string>
+    <string name="additional_link">Additional Links</string>
+    <string name="object_iteration">Object Iteration</string>
+
+
+    <!--Athena details header lables-->
+    <string name="athena_nominal_header">ATHENA Nominal Details</string>
+    <string name="athena_vehicle_header">ATHENA Vehicle Details</string>
+    <string name="athena_address_header">ATHENA Address Details</string>
+    <string name="athena_investigation_header">ATHENA Investigation Details</string>
+    <string name="athena_cases_header">ATHENA Cases Details</string>
+    <string name="athena_communication_header">ATHENA Communication Details</string>
+    <string name="athena_court_warrant_header">ATHENA Court Warrant Details</string>
+    <string name="linked_person_header">Linked Person Details</string>
+    <string name="linked_vehicle_header">Linked Vehicle Details</string>
+    <string name="linked_location_header">Linked Locations</string>
+    <string name="additional_information">Additonal Information</string>
+    <string name="linked_intelligence_header">Linked Intelligence Report</string>
+    <string name="linked_custody_record_header">Linked Custody Report</string>
+    <string name="linked_investigation_header">Linked Investigation</string>
+    <string name="linked_court_warrant_header">Linked Court Warrant</string>
+    <string name="linked_case_header">Linked Cases</string>
+    <string name="linked_communication_header">Linked Communication Details</string>
+    <string name="linked_arrest_header">Linked Arrest Details</string>
+    <string name="linked_offence_header">Linked Offence Details</string>
+    <string name="linked_organisation_header">Linked Organisation Details</string>
+    <string name="linked_search_header">Linked Search Details</string>
+    <string name="linked_warning_header">Linked Warning Details</string>
+    <string name="linked_property_item_header">Linked Property Item Details</string>
+    <string name="object_iteration_header">Object Iteration Details</string>
+    <string name="arrest">Arrest</string>
+    <string name="arrest_details">Arrest Details</string>
+    <string name="bails">Bails</string>
+    <string name="bail_refusal">Bail Refusal</string>
+    <string name="documents">Documents</string>
+
+
+    <!--Additional Link - Arrest Lables -->
+    <string name="arrest_date">Arrest Date/Time</string>
+    <string name="arresting_officer">Arresting Officer</string>
+    <string name="arresting_officer_unit">Arresting Officer Unit</string>
+    <string name="arrest_location">Arrest Location Refusal</string>
+    <string name="arrest_reason">Arrest Reason</string>
+
+    <!--Athena Additional link Search lable-->
+    <string name="search_title">Search Title</string>
+    <string name="type_of_search">Type of Search</string>
+    <string name="statutory_power">Statutory Power Used</string>
+    <string name="search_from">Search From</string>
+    <string name="search_to">Search To</string>
+    <string name="authorization_date">Authorisation Date</string>
+    <string name="search_status">Search Status Custody</string>
+    <string name="officer_present">Officer Present</string>
+
+    <!--Linked Offence lables-->
+    <string name="offence_date_time">Offence Date/Time</string>
+    <string name="offence_wording">Offence Wording</string>
+    <string name="offence_associated_crime">Associated Crime Reference</string>
+    <string name="offence_location">Offence Location</string>
+    <string name="offence_status">Offence Status</string>
+    <string name="offence_change_log">Offence Change Log</string>
+    <string name="organisation_remarks">Organisation Remarks</string>
+
+    <!--Person Athena linked header-->
+    <string name="offence">Offences</string>
+    <string name="person_searches">Person Searches</string>
+    <string name="property_items">Property Items</string>
+    <string name="risk_assesments">Risk Assesments</string>
+    <string name="sample_taken">Sample Taken</string>
+    <string name="briefing_items">Briefing Items</string>
+    <string name="item">Item</string>
+    <string name="manufacture">Manufacture</string>
+    <string name="first_color">First Color</string>
+    <string name="second_color">Second Color</string>
+
+    <!--Person Athena Details lables-->
+    <string name="person_name">Name</string>
+    <string name="place_of_birth">Place of Birth</string>
+    <string name="Firearms_certificate">Firearns Certificate Holder</string>
+    <string name="pnc_id">PNC ID</string>
+    <string name="warning">Warning</string>
+    <string name="latest_home_address">Latest Home Address</string>
+    <string name="pnc_filename">PNC Filename</string>
+    <string name="alias_details">Alias Details</string>
+    <string name="ethinic_appearance">Ethinic Appearance</string>
+    <string name="height">Height</string>
+    <string name="build">Build</string>
+    <string name="forename">Forename</string>
+    <string name="surname">Surname</string>
+
+
+    <!--Vehicle lables-->
+    <string name="vrm_vehicle">VRM</string>
+    <string name="make_vehicle">Make</string>
+    <string name="model_vehicle">Model</string>
+    <string name="color_vehicle">Color</string>
+    <string name="fuel_type">Fuel Type</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="foreign_vehicle">Foreign Vehicle</string>
+    <string name="body_type">Body Type</string>
+    <string name="vehicle_description">Vehicle Description</string>
+    <string name="feature">Vehicle Features</string>
+    <string name="anpr_hotlist">ANPR Hotlist?</string>
+    <string name="anpr_reason">ANPR Reason</string>
+    <string name="other">OTHER : </string>
+    <string name="warning_signal">WARNING SIGNAL : </string>
+    <string name="characterictics">Identifying Characteristics</string>
+    <string name="country_of_registration">Country Of Registration</string>
+    <string name="remarks">Remarks</string>
+    <string name="engine_no">Engine No</string>
+    <string name="chassis_no">Chassis No</string>
+
+    <!--Investigation related lables-->
+    <string name="cnc_no">C&amp;C No</string>
+    <string name="end_on">End on/From</string>
+    <string name="reported_on">Reported On</string>
+    <string name="status">Status</string>
+    <string name="primaryoffence">Primary Offence</string>
+    <string name="oic">OIC</string>
+    <string name="oic_unit">OIC Unit</string>
+    <string name="investigation_type">Investigation Type</string>
+    <string name="outcome">Outcome</string>
+    <string name="cc_number">C&amp;C Number</string>
+    <string name="categories">Categories</string>
+    <string name="keywords">Keywords</string>
+    <string name="reporting_officer">Reporting Officer</string>
+    <string name="ho_classification">HO Classification</string>
+    <string name="victim_crown">Victim is crown</string>
+    <string name="cccjs_code">CCCJS Code</string>
+    <string name="acpo_offence_code">ACPO Offence Code</string>
+    <string name="sub_group">Sub Group</string>
+    <string name="offence_cccjs">Offence CCCJS</string>
+
+    <string name="entered_by">Entered By</string>
+    <string name="enter_type">Enter Type</string>
+    <string name="text">Text</string>
+    <string name="enquiry_log">Enquiry Log</string>
+    <string name="add_enquiry_log">Add Enquiry Log</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="event_location">Event Location</string>
+    <string name="investigation_summary">Investigation Summary</string>
+    <string name="primary_offence_details">Primary Offence Detail</string>
+    <string name="primary_offence">Primary Offence</string>
+    <string name="reason">Reason</string>
+
+    <!--Case details lables-->
+    <string name="reference_no">Reference Number</string>
+    <string name="case_reference">Case Reference</string>
+    <string name="created_on">Created On</string>
+    <string name="created_date">Created Date</string>
+    <string name="file_sub_type">File/Sub Type</string>
+    <string name="file_type">File Type</string>
+    <string name="cps_branch">CPS Branch</string>
+    <string name="cps_case_status">CPS Case Status</string>
+    <string name="case_worker">Case Worker</string>
+    <string name="witness_care_officer">Witness Care Officer</string>
+    <string name="offence_date">Offence &amp; Date</string>
+    <string name="comm_details">Comms Detail</string>
+    <string name="comm_type">Comms Type</string>
+    <string name="log_date">Log Date</string>
+    <string name="detail">Details</string>
+    <string name="defendants">Defendants</string>
+    <string name="hearings">Hearings</string>
+    <string name="details">Details</string>
+
+
+    <!--Court Warrant related lables-->
+    <string name="warrant_reference">Warrant Reference</string>
+    <string name="issue_date">Issue Date</string>
+    <string name="due_date">Due Date</string>
+    <string name="warrant_no">Warrant Number</string>
+    <string name="warrant_issued">Warrant Issued</string>
+    <string name="warrant_due">Warrant Due</string>
+    <string name="subject_bailed">Subject Bailed</string>
+
+
+    <!--Intelligence Additional Info Lables-->
+    <string name="info_text">Information Text</string>
+    <string name="date_added">Date Added</string>
+    <string name="sanitised_text">Sanitised Text</string>
+    <string name="source">Source</string>
+    <string name="source_info">Source of Info</string>
+    <string name="member_public_name">Member of Public Name</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="organization">Organization</string>
+    <string name="submitting_officer">Submitting Officer</string>
+    <string name="other_force">Other Force</string>
+    <string name="other_force_officer">Other Force Officer Details</string>
+    <string name="isr_no">ISR Number</string>
+    <string name="other_source">Other Source</string>
+    <string name="other_refernec">Other reference</string>
+    <string name="handling">Handling</string>
+    <string name="handling_condition">Handling Condition</string>
+    <string name="officer_comments">Officer Comments</string>
+    <string name="provenance">Provenance</string>
+    <string name="date_submitted">Date Submitted</string>
+    <string name="event_from">Event from/to</string>
+    <string name="nim_level">NIM Level</string>
+    <string name="priority">Priority</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="source_code">Source Code</string>
+    <string name="evaluation_code">Evaluation Code</string>
+    <string name="handling_code">Handling Code</string>
+    <string name="force">Force</string>
+    <string name="bcu">BCU</string>
+    <string name="district">District</string>
+    <string name="ward">Ward</string>
+    <string name="type_of_info">Type Of Information</string>
+    <string name="report_title">Report Title</string>
+
+    <!--Custody Records Lables-->
+    <string name="reasons_offences">Reasons/Offence</string>
+    <string name="bail_details">Bail Details</string>
+    <string name="custody_details">Custody Details</string>
+    <string name="custody_record_no">Custody Records No</string>
+    <string name="custody_station">Custody Station</string>
+    <string name="custody_status">Current Record Status</string>
+    <string name="custody_type">Type</string>
+    <string name="custody_arrest_time">Arrest Time</string>
+    <string name="custody_arrived">Arrived</string>
+    <string name="custody_arrest_date_time">Arrest Date/Time</string>
+    <string name="custody_associate_crime_no">Associate Crime No</string>
+    <string name="custody_oic">OIC</string>
+
+
+    <!--Location related lables-->
+    <string name="location_details">Location Details</string>
+    <string name="location_marker">Markers</string>
+    <string name="location_premises_name">Premises Name</string>
+    <string name="location_sub_premises_name">Sub Premises Name</string>
+    <string name="location_premises_no">Premises No</string>
+    <string name="flat_no">Flat No</string>
+    <string name="location_sub_no">Sub No</string>
+    <string name="location_street_name">Street Name</string>
+    <string name="location_locality">Locality</string>
+    <string name="location_town">Town</string>
+    <string name="location_country">Country</string>
+    <string name="location_postcode">Postcode</string>
+    <string name="location_post_box">Post Box</string>
+    <string name="location_county">County</string>
+    <string name="location_force">Force</string>
+    <string name="location_premises_type">Premises Type</string>
+    <string name="location_bcu">BCU</string>
+    <string name="location_district">District</string>
+    <string name="location_ward">Ward</string>
+    <string name="location_easting">Easting</string>
+    <string name="location_northing">Northing</string>
+
+
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="further_description">Further Description</string>
+
+
+    <string name="title_kent">Title: Kent Police</string>
+    <string name="desc_detail"> A second man has been arrested on suspicion of people smuggling ...</string>
+
+    <string name="logout_text">Do you want to logout?</string>
+    <string name="loose_data">You may loose the unsaved data.</string>
+    <string name="save_draft">Draft has been saved successfully.</string>
+    <string name="submit_congratulations">Data has been submitted successfully with refrence id 26452915</string>
+    <string name="add_signature">Add Signature</string>
+    <string name="add_sketch">Add Sketch</string>
+    <string name="refresh">Would you like to reset the section?</string>
+
+    <string name="image_not_picked">Sorry! image is not picked from gallery.</string>
+    <string name="image_not_captured">Sorry! image is not captured.</string>
+    <string name="file_not_picked">Sorry! file is not picked.</string>
+    <string name="enter_credientials">Please enter your credentail!</string>
+    <string name="change_pwd_text">Do you want to change password?</string>
+
+    //TASKING >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    <string name="task_assigned">Task has been assigned to you. And is now available under pending actions.</string>
+    <string name="task_declined">Task has been declined.</string>
+
+    <!--    Pin Dialog Lables-->
+    <string name="enter_pin">Please enter 4 digit pin.</string>
+    <string name="enable_pin">Please register pin.</string>
+    <string name="incorrect_pin">Incorrect pin</string>
+    <string name="enter_correct_pin">Please enter same pin</string>
+    <string name="about_optik">About OPTIK</string>
+    <string name="use_fingerprint">Use your fingerprint to access OPTIK.</string>
+
+    <!--Biometric related lables-->
+    <string name="biometric_failed">Fingerprint not recognized</string>
+    <string name="biometric">Biometric</string>
+    <string name="biometric_title">Authenticate</string>
+    <string name="biometric_subtitle">Use your fingerprint to access OPTIK</string>
+    <string name="biometric_description">Place your finger on the sensor to verify your identity</string>
+    <string name="biometric_negative_button_text">Cancel</string>
+    <string name="biometric_error_sdk_not_supported">Sdk version not supported</string>
+    <string name="biometric_error_hardware_not_supported">Device does not support biometric authentication</string>
+    <string name="biometric_error_fingerprint_not_available">Fingerprint is not registered in device</string>
+    <string name="biometric_error_permission_not_granted">Permission is not granted by user</string>
+    <string name="biometric_failure">Login not successful!</string>
+    <string name="biometric_cancelled">Authentication cancelled by user</string>
+    <string name="biometric_success">Login Successful</string>
+    <string name="mandatory_fields_require">Mandatory fields required.</string>
+
+    <string name="contact_details">Contact Details</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="app_settings">App Settings</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="org_details">Organisational Details</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="pin">Pin</string>
+    <string name="cnf_pin">Confirm Pin</string>
+    <string name="change_password">Change Password</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="forgot_pin_text">Please login and update your pin.</string>
+    <string name="date">Date:</string>
+    <string name="date_time">Date &amp; Time</string>
+    <string name="court">Court</string>
+    <string name="case_document_status">Case Document Status</string>
+    <string name="cju_unit_code">CJU Unit Code</string>
+
+    <!--Changed Password related lables-->
+    <string name="reset_details">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="invalid_old_password">Old password can not be blank!</string>
+    <string name="invalid_new_password">New password can not be blank!</string>
+    <string name="invalid_confirm_password">Confirm password can not be blank!</string>
+    <string name="password_mismatch">New password and Confirm Password mismatch!</string>
+    <string name="success_password">Password changed successfully!</string>
+
+
+    <!--Navigation list-->
+    <string name="security">Security</string>
+    <string name="others">Others</string>
+    <string name="profile">Profile</string>
+    <string name="night_view">Night View</string>
+    <string name="module_shortcut">Modules Shortcut</string>
+    <string name="classic_view">Classic View</string>
+    <string name="offline">Offline</string>
+    <string name="logout">Logout</string>
+    <string name="version">Version</string>
+    <string name="invalid_customer_code">Customer code can not be blank!</string>
+    <string name="invalid_username">Username can not be blank!</string>
+    <string name="invalid_password">Password can not be blank!</string>
+    <string name="four_module_required">Please select atleast 4 modules</string>
+
+    <!--Profile related lables-->
+    <string name="joining_date">Joining Date</string>
+    <string name="supervisor_collar">Supervisor Collar No</string>
+    <string name="directorate">Directorate</string>
+    <string name="division">Division</string>
+    <string name="department">Department</string>
+    <string name="area">Area</string>
+    <string name="station">Station</string>
+    <string name="location">Location</string>
+    <string name="linked_location">Linked Locations</string>
+    <string name="draft">Draft</string>
+    <string name="draft_saved">Draft Saved</string>
+    <string name="total_count">Total Count</string>
+
+
+    <!--Person PNC Details-->
+    <string name="pnc_person_details">Person Details</string>
+    <string name="wanted_missing">Wanted and Missing</string>
+    <string name="addresses">Addresses</string>
+    <string name="alias_nickname">Alias/Nickname/DOB</string>
+    <string name="description_marks">Description/Identification Marks</string>
+    <string name="bail_condition">Bail Conditions</string>
+    <string name="impending_prosecutions">Impending Prosecutions</string>
+    <string name="disqualified_driver">Disqualified Driver Report</string>
+    <string name="photo_loc">Photo Loc/Local Ref</string>
+    <string name="disposal_history">Disposal History</string>
+    <string name="disposal_summary">Disposal Summary</string>
+    <string name="dna_report">DNA Report</string>
+    <string name="operational_info">Operational Information</string>
+    <string name="warnings">Warnings</string>
+    <string name="dl_no">DL No</string>
+    <string name="marks_scars">Marks and Scars</string>
+    <string name="info_marker">Information Marker</string>
+    <string name="ethnicity">Ethnicity</string>
+    <string name="last_update_date">Last Updated Date/Time</string>
+    <string name="nominal_address">Nominal Address</string>
+    <string name="navigation">Navigation</string>
+    <string name="pnc_address_desc">Address Description</string>
+    <string name="pnc_desc">Description</string>
+    <string name="date_at">Date At</string>
+    <string name="date_updated">Date Updated</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="accent">Accent</string>
+    <string name="pnc_build">Build</string>
+    <string name="eye_color">Eye Colour 1&amp;2</string>
+    <string name="glasses">Glasses</string>
+    <string name="handedness">Handedness</string>
+    <string name="pnc_height">Height</string>
+    <string name="hair">Hair</string>
+    <string name="facial_hair">Facial Hair</string>
+    <string name="pnc_court">Court</string>
+    <string name="note">Note</string>
+    <string name="date_effective">Date Effective From</string>
+    <string name="sample_barcode">Sample Barcode</string>
+    <string name="as_ref">As/Ref</string>
+    <string name="dna_status">DNA Status</string>
+    <string name="date_of_sample">Date Of Sample</string>
+    <string name="sent_lab">Sent to Lab</string>
+    <string name="fs_ref">FS/Ref</string>
+    <string name="sample_type">Sample Type</string>
+    <string name="creator">Creator</string>
+    <string name="date_of_creation">Date Of Creation</string>
+    <string name="ref_no_photo_id">Photo Reference No</string>
+
+
+    <!--Vehicle PNC related lables-->
+    <string name="pnc_vehicle_details">Vehicle Details</string>
+    <string name="vehicle_report">Vehicle Reports</string>
+    <string name="insurance_report">Insurance Reports</string>
+    <string name="pnc_vrm">VRM</string>
+    <string name="pnc_make">MAKE</string>
+    <string name="pnc_model">Model</string>
+    <string name="pnc_lost">Lost/Stoles</string>
+    <string name="pnc_address">Address</string>
+    <string name="pnc_colour">Colour</string>
+    <string name="registered">Registered</string>
+    <string name="owner">Owner</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="vin">VIN</string>
+    <string name="mot_expiry">MOT Expiry</string>
+    <string name="keeper_notify">Keeper Notify</string>
+    <string name="vrol">VROL</string>
+    <string name="summary_hazards">Summary Hazards</string>
+    <string name="cc">CC</string>
+    <string name="markers">Markers</string>
+    <string name="flags">Flags</string>
+    <string name="reference">Reference</string>
+    <string name="inc_date">Inc Date</string>
+
+
+    <!--NFLMS related lables-->
+    <string name="person_detail">Person Details</string>
+    <string name="weapon_detail">Weapon Details</string>
+    <string name="address_detail">Address Details</string>
+    <string name="nflms_name">Name</string>
+    <string name="nflms_dob">DOB</string>
+    <string name="nflms_company">Company Name</string>
+    <string name="nflms_height">Height</string>
+    <string name="nflms_telephone">Telephone Number</string>
+    <string name="nflms_person_no">Person Number</string>
+    <string name="nflms_pnc_id">PNC Id</string>
+    <string name="nflms_action_desc">Action Description</string>
+    <string name="nflms_caliber_desc">Caliber Description</string>
+    <string name="nflms_certificate_no">Certificate Number</string>
+    <string name="nflms_certificate_type">Certificate Type</string>
+    <string name="nflms_expiry_date">Expiry Date</string>
+    <string name="nflms_mdf_desc">Manufacturer Description</string>
+    <string name="nflms_security_type">Security Type Description</string>
+    <string name="nflms_serial_no">Serial Number</string>
+    <string name="nflms_status">Status</string>
+    <string name="nflms_valid_from">Valid From</string>
+    <string name="nflms_weapon_loc">Weapon Location</string>
+    <string name="nflms_weapon_type">Weapon Type Description</string>
+    <string name="nflms_address">Address</string>
+    <string name="nflms_blue_ref">Blue8 Reference</string>
+    <string name="nflms_contact_characteristic">Contact Characteristic_ID</string>
+    <string name="nflms_grid_ref">Grid Reference</string>
+    <string name="nflms_postcode">Postcode</string>
+    <string name="nflms_uprn">UPRN</string>
+
+
+    <!--Stops related lables-->
+    <string name="stop_detail">Stop Details</string>
+    <string name="vehicle_detail">Vehicle Details</string>
+    <string name="stop_house_no">House No/Name</string>
+    <string name="stop_street">Road/Street</string>
+    <string name="stop_city">City/Town</string>
+    <string name="stop_postcode">Postcode</string>
+    <string name="stop_fname">First Name</string>
+    <string name="stop_lname">Last Name</string>
+    <string name="stop_dob">DOB</string>
+    <string name="stop_gender">Gender</string>
+    <string name="stop_ethnicity">Ethnicity</string>
+    <string name="stop_search_id">Stop &amp; Search ID</string>
+    <string name="stop_legislation">Legislation</string>
+    <string name="ground_for_search">Ground for Search</string>
+    <string name="stop_date">Stop Date/Time</string>
+    <string name="place_of_stop">Place of Stop</string>
+    <string name="stoping_officer">Stopping Officer</string>
+    <string name="stop_vrm">VRM</string>
+    <string name="stop_make">MAKE</string>
+    <string name="stop_model">Model</string>
+    <string name="stop_classification">Classification</string>
+    <string name="stop_colour">Colour</string>
+
+
+    <!--QAS related lables-->
+    <string name="occupants">Occupants</string>
+    <string name="building">Building</string>
+    <string name="qas_house_no">House No</string>
+    <string name="qas_street">Street</string>
+    <string name="qas_locality">Locality</string>
+    <string name="qas_town">Town/City</string>
+    <string name="qas_county">County</string>
+    <string name="qas_postcode">Postcode</string>
+
+    <!--DL related lables-->
+    <string name="dl_check_header">PNC Licence List</string>
+    <string name="select_dl">Choose Licence</string>
+    <string name="disqualify_driving">Disqualified Driving</string>
+    <string name="record_type">Record Type</string>
+    <string name="driving_search_details">Driving Search Details</string>
+    <string name="endorsement_details">Endorsement Details</string>
+    <string name="endorsement_driving_summary">Endorsement/Driving Offense Summary</string>
+    <string name="unclaimed_test_pass">Unclaimed Test Pass Details</string>
+    <string name="previous_driver_no">Previous Driver Numbers/Cross Reference</string>
+    <string name="document_trail">Document Trail</string>
+    <string name="stops_markers">Stops/Markers</string>
+    <string name="provisional_entitlement">Provisional Entitlement</string>
+    <string name="full_entitlement">Full Entitlement</string>
+    <string name="cat_of_license">Category Of License</string>
+    <string name="from">From</string>
+    <string name="until">Until</string>
+    <string name="title">title</string>
+    <string name="disqualification">Disqualification</string>
+    <string name="dl_address">Address</string>
+    <string name="driving_licence_no">Driving Licence No</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="licence_type">Licence Type</string>
+    <string name="licence_issue_no">Licence Issue No</string>
+    <string name="counter_part_no">Counter Part Issue No</string>
+    <string name="commencement_date">Commencement Date</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="postcode">Postcode</string>
+    <string name="birth_place">Birth Place</string>
+    <string name="document_no">Document No</string>
+    <string name="document_date">Date</string>
+    <string name="doc_description">Description</string>
+
+    <string name="doc_category">Category</string>
+    <string name="doc_from">From</string>
+    <string name="doc_restriction">Restriction</string>
+    <string name="disqualified">Disqualified</string>
+    <string name="drink_drug">Drink Drug</string>
+    <string name="dl_other">Other</string>
+    <string name="points">Points</string>
+    <string name="driver">Driver</string>
+    <string name="harm">Harm</string>
+    <string name="conviction_cout">Conviction Court</string>
+    <string name="conviction_date">Conviction Date</string>
+    <string name="offence_code">Offence Code</string>
+    <string name="offencedate">Offence Date</string>
+    <string name="fine">Fine</string>
+    <string name="disq_period">Disq Period</string>
+    <string name="other_sentence">Other Sentence</string>
+    <string name="suspend_sentence">Suspend Sentence</string>
+    <string name="date_disq_removed">Date Disq Removed</string>
+    <string name="dtt_dps">DTTPorDPS</string>
+    <string name="sentencing_court">Sentencing Court</string>
+    <string name="sentencing_date">Sentencing Date</string>
+    <string name="disq_pend_appeal">Disq Pend Appeal</string>
+    <string name="appeal_date">Appeal Date</string>
+    <string name="disqreimposed">Disq Reimposed</string>
+    <string name="appeal_court">Appeal Court</string>
+    <string name="rehabe_reduction">Rehabe Reduction</string>
+
+    <!--EVENT related lables-->
+    <string name="urn">URN</string>
+    <string name="classification">Classification</string>
+    <string name="incident_description">Incident Description</string>
+    <string name="stage">Stage</string>
+    <string name="subject">Subject</string>
+    <string name="recording_person">Recording Person</string>
+    <string name="state">State</string>
+    <string name="lds">LDS</string>
+    <string name="choose_event">Choose Event</string>
+
+    <!--Allegation related lables-->
+    <string name="statute">Statute</string>
+    <string name="code">Code</string>
+    <string name="allegation">Allegation</string>
+    <string name="choose_allegation">Choose Allegation</string>
+
+    <!--Offence related lables-->
+    <string name="offence_">Offence</string>
+    <string name="offence_category">Offence Category</string>
+    <string name="class_offfence">Class</string>
+    <string name="sub_class">Sub-Class</string>
+    <string name="ho_code">HO Code</string>
+    <string name="act">Act</string>
+    <string name="choose_offence">Choose Offence</string>
+
+    <!--Poll related lables-->
+    <string name="poll_markers">Markers</string>
+    <string name="poll_Warning_signals">Warning Signals</string>
+    <string name="poll_risk_markers">Risk Markers</string>
+    <string name="poll_action_markers">Action Markers</string>
+    <string name="poll_info_markers">Information Markers</string>
+    <string name="poll_History">History</string>
+    <string name="poll_person_details">Person Details</string>
+    <string name="poll_person_summary">Person Summary</string>
+    <string name="poll_photos">Photos</string>
+    <string name="poll_names">Names</string>
+    <string name="poll_addresses">Addresses</string>
+    <string name="poll_email">Email</string>
+    <string name="poll_phone_number">Phone Numbers</string>
+    <string name="poll_descriptive_features">Descriptive Features</string>
+    <string name="poll_hair">Hair</string>
+    <string name="poll_facial_hair">Facial Hair</string>
+    <string name="poll_marks_scars">Marks/Scars</string>
+    <string name="poll_habitual_dress">Habitual Dress</string>
+    <string name="poll_jewellery">Jewellery</string>
+    <string name="poll_id_numbers">ID Numbers</string>
+    <string name="poll_system_no">System Number</string>
+    <string name="poll_id_number">Id Number</string>
+    <string name="poll_passport">Passport</string>
+    <string name="poll_associations">Associations</string>
+    <string name="poll_known_association">Known Associates</string>
+    <string name="poll_organization">Organizations</string>
+    <string name="poll_people">People</string>
+    <string name="poll_flag">Flag</string>
+    <string name="poll_flags">Flags</string>
+    <string name="poll_occupations">Occupations</string>
+    <string name="poll_occupation">Occupation</string>
+    <string name="poll_task">Task</string>
+    <string name="poll_main_name">Main Name</string>
+    <string name="poll_dob">Date Of Birth</string>
+    <string name="poll_gender">Gender</string>
+    <string name="poll_age">Age</string>
+    <string name="poll_ethinic_appearance">Ethinic Appearance</string>
+    <string name="poll_height">Height</string>
+    <string name="poll_build">Build</string>
+    <string name="poll_main_address">Main Address</string>
+    <string name="poll_name">Name</string>
+    <string name="poll_title">Title</string>
+    <string name="poll_pnc_file_name">PNC File Name</string>
+    <string name="poll_main">Main</string>
+    <string name="poll_address">Address</string>
+    <string name="poll_postcode">Postcode</string>
+    <string name="poll_type">Type</string>
+    <string name="poll_email_address">Email Address</string>
+    <string name="poll_country_code">Country Code</string>
+    <string name="poll_number">Number</string>
+    <string name="poll_extension">Extension</string>
+    <string name="poll_marker">Marker</string>
+    <string name="poll_supporting_notes">Supporting Notes</string>
+    <string name="poll_recorded">Recorded On</string>
+    <string name="poll_reference">Reference</string>
+    <string name="poll_relationship_person">Relationship To Person</string>
+    <string name="poll_urn">URN</string>
+    <string name="poll_created">Created on</string>
+    <string name="poll_role">Role</string>
+    <string name="poll_desc">Description</string>
+    <string name="poll_stage">Stage</string>
+    <string name="poll_restricted">Restricted Access</string>
+    <string name="poll_covert_access">Covert Access</string>
+    <string name="poll_vehicle_details">Vehicle Details</string>
+    <string name="poll_category">Category</string>
+    <string name="poll_usage_type">Usage Type</string>
+    <string name="poll_description">Description</string>
+    <string name="poll_no_of_wheel">No Of Wheels</string>
+    <string name="poll_no_of_doors">No Of Doors</string>
+    <string name="poll_wheel_drive">Wheel Drive</string>
+    <string name="poll_engine_fuel_type">Engine Fuel Type</string>
+    <string name="poll_engine_capacity">Engine Capacity</string>
+    <string name="poll_engine_no">Engine Number</string>
+    <string name="poll_engine_two_no">Engine Two Number</string>
+    <string name="poll_special_marking">Special Marking</string>
+    <string name="poll_special_interest">Special Interest</string>
+    <string name="poll_value">Value</string>
+    <string name="poll_owner">Owner</string>
+    <string name="poll_main_color">Main Color</string>
+    <string name="poll_address_details">Address Details</string>
+    <string name="poll_associated_people">Associated People</string>
+    <string name="poll_flat_no">Flat No/Name</string>
+    <string name="poll_building_no">Building No/Name</string>
+    <string name="poll_street">Street</string>
+    <string name="poll_district">District</string>
+    <string name="poll_city">City</string>
+    <string name="poll_county">County</string>
+    <string name="poll_ethnicity">Ethnicity</string>
+    <string name="poll_added_on">Added On</string>
+
+    <!--Organisation related lables-->
+    <string name="number">Number</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="choose_org">Choose Organisation</string>
+
+    <string name="choose_crimegroup">Choose Crime Group</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+
+    <string name="book_on">Book\nOn</string>
+    <string name="book_off">Book\nOff</string>
+
+    <string name="recent_logs">Recent Logs</string>
+
+    <!--Pocketbook related lables-->
+
+    <string name="pocketbook_entries">Pocketbook\nEntries</string>
+    <string name="all_entries">All\nEntries</string>
+
+</resources>
+

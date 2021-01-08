@@ -1,0 +1,735 @@
+{
+  "User": {
+    "Active": false,
+    "ActiveCallFilterName": "ActiveCallFilter1",
+    "ActiveResourceFilterName": "test1",
+    "Area": "2",
+    "AssignedToGroup": false,
+    "AuthTicket": "ad1d1578-50b2-4281-a25d-21047e684814",
+    "BeatCode": null,
+    "BeatCodeId": 0,
+    "BeatCodeUid": null,
+    "County": null,
+    "CryptoKey": "esxZArp0weddFkS+CT15Yzfw3PdrKDdtY6kClwrk9HA=",
+    "CurrentProcessId": 0,
+    "DOB": "1980-10-19T19:49:32.66+01:00",
+    "DOJ": "1995-10-19T19:49:32.66+01:00",
+    "Department": "71",
+    "District": null,
+    "Division": "1",
+    "Email": "karamvir.singh@hcl.com",
+    "ErrorDescription": null,
+    "FirstLogin": false,
+    "FirstName": "Mobility",
+    "ForceCode": "42",
+    "ForceId": 12,
+    "Gender": "MALE",
+    "Groups": [
+    ],
+    "IsAuthenticated": true,
+    "LastName": "Test User 2",
+    "LockedCount": 20,
+    "MobileNo": "09999999999",
+    "Password": null,
+    "Rank": "Inspector",
+    "Rights": [
+      {
+        "Name": "Administrator",
+        "ObjectId": "Administrator",
+        "ObjectType": null,
+        "ParentId": 47,
+        "SubProcesses": [
+          {
+            "Name": "Audit Reports",
+            "ObjectId": "Audit Reports",
+            "ObjectType": null,
+            "ParentId": 47,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "GeoFencing Report",
+            "ObjectId": "GeoFencing Report",
+            "ObjectType": null,
+            "ParentId": 47,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Manage Groups",
+            "ObjectId": "Manage Groups",
+            "ObjectType": null,
+            "ParentId": 47,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Mobile Forms",
+        "ObjectId": "Mobile Forms",
+        "ObjectType": null,
+        "ParentId": 48,
+        "SubProcesses": [
+          {
+            "Name": "Admin Mobile Forms",
+            "ObjectId": "Admin Mobile Forms",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Adult Referral",
+            "ObjectId": "Adult Referral",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Cannabis Warning",
+            "ObjectId": "Cannabis Warning",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Child Protection Referral",
+            "ObjectId": "Child Protection Referral",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Community Resolution",
+            "ObjectId": "Community Resolution",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Contemporaneous Interview",
+            "ObjectId": "Contemporaneous Interview",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Create Mobile Forms",
+            "ObjectId": "Create Mobile Forms",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Decision Log",
+            "ObjectId": "Decision Log",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Export Mobile Forms",
+            "ObjectId": "Export Mobile Forms",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Medical Consent",
+            "ObjectId": "Medical Consent",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Mental Health",
+            "ObjectId": "Mental Health",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Restorative Justice",
+            "ObjectId": "Restorative Justice",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Sudden Death",
+            "ObjectId": "Sudden Death",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Use Of Force and Other Conrols",
+            "ObjectId": "Use Of Force and Other Conrols",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "View Mobile Forms",
+            "ObjectId": "View Mobile Forms",
+            "ObjectType": null,
+            "ParentId": 48,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Witness Statement",
+        "ObjectId": "Witness Statement",
+        "ObjectType": null,
+        "ParentId": 49,
+        "SubProcesses": [
+          {
+            "Name": "Create Witness Statement",
+            "ObjectId": "Create Witness Statement",
+            "ObjectType": null,
+            "ParentId": 49,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Print Witness Statement",
+            "ObjectId": "Print Witness Statement",
+            "ObjectType": null,
+            "ParentId": 49,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Missing Person",
+        "ObjectId": "Missing Person",
+        "ObjectType": null,
+        "ParentId": 50,
+        "SubProcesses": [
+          {
+            "Name": "Add Risk Assessment Missing Person",
+            "ObjectId": "Add Risk Assessment Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Create Person Missing Person",
+            "ObjectId": "Create Person Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Create Report Missing Person",
+            "ObjectId": "Create Report Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Create Task Missing Person",
+            "ObjectId": "Create Task Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Person Missing Person",
+            "ObjectId": "Search Person Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Report Missing Person",
+            "ObjectId": "Search Report Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Task Missing Person",
+            "ObjectId": "Search Task Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Update Person Missing Person",
+            "ObjectId": "Update Person Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Update Report Missing Person",
+            "ObjectId": "Update Report Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Update Task Missing Person",
+            "ObjectId": "Update Task Missing Person",
+            "ObjectType": null,
+            "ParentId": 50,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Digital Evidence",
+        "ObjectId": "Digital Evidence",
+        "ObjectType": null,
+        "ParentId": 51,
+        "SubProcesses": [
+          {
+            "Name": "Create Digital Evidence",
+            "ObjectId": "Create Digital Evidence",
+            "ObjectType": null,
+            "ParentId": 51,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Digital Evidence",
+            "ObjectId": "Search Digital Evidence",
+            "ObjectType": null,
+            "ParentId": 51,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Pocketbook",
+        "ObjectId": "Pocketbook",
+        "ObjectType": null,
+        "ParentId": 52,
+        "SubProcesses": [
+          {
+            "Name": "Create Pocketbook",
+            "ObjectId": "Create Pocketbook",
+            "ObjectType": null,
+            "ParentId": 52,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Pocketbook",
+            "ObjectId": "Search Pocketbook",
+            "ObjectType": null,
+            "ParentId": 52,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Share Pocketbook",
+            "ObjectId": "Share Pocketbook",
+            "ObjectType": null,
+            "ParentId": 52,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Federated Search",
+        "ObjectId": "Federated Search",
+        "ObjectType": null,
+        "ParentId": 53,
+        "SubProcesses": [
+          {
+            "Name": "POLE SEARCH Federated Search",
+            "ObjectId": "POLE SEARCH Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "DL SEARCH Federated Search",
+            "ObjectId": "DL SEARCH Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "NFLMS Federated Search",
+            "ObjectId": "NFLMS Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "ATHENA Federated Search",
+            "ObjectId": "ATHENA Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "PNC Federated Search",
+            "ObjectId": "PNC Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "QAS Federated Search",
+            "ObjectId": "QAS Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "STOPS Federated Search",
+            "ObjectId": "STOPS Federated Search",
+            "ObjectType": null,
+            "ParentId": 53,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Incident",
+        "ObjectId": "Incident",
+        "ObjectType": null,
+        "ParentId": 54,
+        "SubProcesses": [
+          {
+            "Name": "Active Calls Incident",
+            "ObjectId": "Active Calls Incident",
+            "ObjectType": null,
+            "ParentId": 54,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Active Resources Incident",
+            "ObjectId": "Active Resources Incident",
+            "ObjectType": null,
+            "ParentId": 54,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Incident",
+            "ObjectId": "Search Incident",
+            "ObjectType": null,
+            "ParentId": 54,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Update Incident",
+            "ObjectId": "Update Incident",
+            "ObjectType": null,
+            "ParentId": 54,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Update Location Incident",
+            "ObjectId": "Update Location Incident",
+            "ObjectType": null,
+            "ParentId": 54,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Crime",
+        "ObjectId": "Crime",
+        "ObjectType": null,
+        "ParentId": 56,
+        "SubProcesses": [
+          {
+            "Name": "Genesis Create Crime",
+            "ObjectId": "Genesis Create Crime",
+            "ObjectType": null,
+            "ParentId": 56,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search Genesis Crime",
+            "ObjectId": "Search Genesis Crime",
+            "ObjectType": null,
+            "ParentId": 56,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "TOR Desktop",
+        "ObjectId": "TOR Desktop",
+        "ObjectType": null,
+        "ParentId": 57,
+        "SubProcesses": [
+          {
+            "Name": "ADDBATCH",
+            "ObjectId": "ADDBATCH",
+            "ObjectType": null,
+            "ParentId": 57,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "EXPORTBATCH",
+            "ObjectId": "EXPORTBATCH",
+            "ObjectType": null,
+            "ParentId": 57,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "TOR Search Desktop",
+            "ObjectId": "TOR Search Desktop",
+            "ObjectType": null,
+            "ParentId": 57,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "DashboardReporting",
+        "ObjectId": "DashboardReporting",
+        "ObjectType": null,
+        "ParentId": 58,
+        "SubProcesses": [
+          {
+            "Name": "Compare",
+            "ObjectId": "Compare",
+            "ObjectType": null,
+            "ParentId": 58,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Dashboard",
+            "ObjectId": "Dashboard",
+            "ObjectType": null,
+            "ParentId": 58,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "DetailedView",
+            "ObjectId": "DetailedView",
+            "ObjectType": null,
+            "ParentId": 58,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "MyTeam",
+            "ObjectId": "MyTeam",
+            "ObjectType": null,
+            "ParentId": 58,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Intelligence",
+        "ObjectId": "Intelligence",
+        "ObjectType": null,
+        "ParentId": 59,
+        "SubProcesses": [
+          {
+            "Name": "Create Intelligence",
+            "ObjectId": "Create Intelligence",
+            "ObjectType": null,
+            "ParentId": 59,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Investigation",
+        "ObjectId": "Investigation",
+        "ObjectType": null,
+        "ParentId": 60,
+        "SubProcesses": [
+          {
+            "Name": "Create Investigation",
+            "ObjectId": "Create Investigation",
+            "ObjectType": null,
+            "ParentId": 60,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Submitted Investigation",
+            "ObjectId": "Submitted Investigation",
+            "ObjectType": null,
+            "ParentId": 60,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "STOPS",
+        "ObjectId": "STOPS",
+        "ObjectType": null,
+        "ParentId": 61,
+        "SubProcesses": [
+          {
+            "Name": "Create Stops",
+            "ObjectId": "Create Stops",
+            "ObjectType": null,
+            "ParentId": 61,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "CreateSection163",
+            "ObjectId": "CreateSection163",
+            "ObjectType": null,
+            "ParentId": 61,
+            "Sections": [
+            ],
+            "Url": null
+          },
+          {
+            "Name": "Search",
+            "ObjectId": "Search",
+            "ObjectType": null,
+            "ParentId": 61,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "PNC",
+        "ObjectId": "PNC",
+        "ObjectType": null,
+        "ParentId": 63,
+        "SubProcesses": [
+          {
+            "Name": "PNC",
+            "ObjectId": "PNC",
+            "ObjectType": null,
+            "ParentId": 63,
+            "Sections": [
+            ],
+            "Url": null
+          }
+        ]
+      }
+    ],
+    "Station": "92",
+    "SuperVisorWarrantnumber": null,
+    "UserDomain": "0",
+    "UserId": "42000002",
+    "UserName": "42000002",
+    "UserType": null,
+    "UserTypeId": null,
+    "UserTypeNumber": 0,
+    "ValidUpto": 0,
+    "WarrantNo": "42000002"
+  }
+}

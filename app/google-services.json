@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "948152105977",
+    "firebase_url": "https://digitalpolicingplatform.firebaseio.com",
+    "project_id": "digitalpolicingplatform",
+    "storage_bucket": "digitalpolicingplatform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948152105977:android:d3c5b9279355c118c55b28",
+        "android_client_info": {
+          "package_name": "hcl.policing.digitalpolicingplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948152105977-k0k3t4jpq8h6b09uh4kig61i1ruonfhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMktZen8F1lPpkkTDjo1TqRiH3O4vnfFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948152105977-k0k3t4jpq8h6b09uh4kig61i1ruonfhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

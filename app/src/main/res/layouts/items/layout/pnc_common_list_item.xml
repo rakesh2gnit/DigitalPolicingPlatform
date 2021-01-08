@@ -1,0 +1,812 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llWantedMissing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlWantedMissing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivWantedMissing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvWantedMissing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivWantedMissing"
+                android:text="@string/wanted_missing"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvWantedMissingCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llWantedMissingContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddresses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlAddresses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivAddresses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvAddressesName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivAddresses"
+                android:text="@string/addresses"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAddressesCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llAddressesContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAliasNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlAliasNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivAliasNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvAliasNicknameName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivAliasNickname"
+                android:text="@string/alias_nickname"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAliasNicknameCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llAliasNicknameContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvDescriptionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivDescription"
+                android:text="@string/description_marks"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescriptionCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llDescriptionContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBailCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlBailCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivBailCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvBailConditionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivBailCondition"
+                android:text="@string/bail_condition"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvBailConditionCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llBailConditionContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llImpendingProsecution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlImpendingProsecution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp1"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivImpendingProsecution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvImpendingProsecution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivImpendingProsecution"
+                android:text="@string/impending_prosecutions"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvImpendingProsecutionCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llImpendingProsecutionContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDriverReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlDriverReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivDriverReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvDriverReportName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivDriverReport"
+                android:text="@string/disqualified_driver"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDriverReportCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llDriverReportContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPhotoLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlPhotoLoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivPhotoLoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvPhotoLocName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivPhotoLoc"
+                android:text="@string/photo_loc"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPhotoLocCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llPhotoLocContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDisposalHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlDisposalHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivDisposalHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvDisposalHistoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivDisposalHistory"
+                android:text="@string/disposal_history"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDisposalHistoryCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llDisposalHistoryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDisposalSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlDisposalSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivDisposalSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvDisposalSummaryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivDisposalSummary"
+                android:text="@string/disposal_summary"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDisposalSummaryCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llDisposalSummaryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDNAReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlDNAReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivDNAReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvDNAReportName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivDNAReport"
+                android:text="@string/dna_report"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDNAReportCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llDNAReportContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llOperationInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rlOperationInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivOperationInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvOperationInfoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivOperationInfo"
+                android:text="@string/operational_info"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvOperationInfoCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llOperationInfoContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

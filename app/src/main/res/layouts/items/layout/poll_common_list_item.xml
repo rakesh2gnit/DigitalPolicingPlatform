@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llMarker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlMarker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivMarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvMarkerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivMarker"
+                android:text="@string/poll_markers"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMarkerCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/llMarkerContent"
+            layout="@layout/marker_items"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvHistoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivHistory"
+                android:text="@string/poll_History"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvHistoryCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp10"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+<!--
+        <include
+            android:id="@+id/llHistoryContent"
+            layout="@layout/poll_history_items"
+            android:visibility="gone" />-->
+
+        <LinearLayout
+            android:id="@+id/llHistoryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

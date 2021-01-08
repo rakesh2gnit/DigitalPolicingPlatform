@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dp15"
+    android:layout_marginEnd="@dimen/dp15"
+    android:background="@color/black_trans"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llHair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlHair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivHair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvHair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivHair"
+                android:text="@string/poll_hair"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvHairCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llHairContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFacialHair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlFacialHair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivFacialHair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvFacialHairName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivFacialHair"
+                android:text="@string/poll_facial_hair"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFacialHairCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llFacialHairContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMarkScars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlMarkScars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivMarkScars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvMarkScarsName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivMarkScars"
+                android:text="@string/poll_marks_scars"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMarkScarsCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llMarkScarsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHabitualDress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlHabitualDress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivHabitualDress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvHabitualDressName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivHabitualDress"
+                android:text="@string/poll_habitual_dress"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvHabitualDressCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llHabitualDressContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llJewellery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlJewellery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp2">
+
+            <ImageView
+                android:id="@+id/ivJewellery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/images"
+                android:foregroundGravity="center_vertical"
+                android:outlineSpotShadowColor="@color/white"
+                app:srcCompat="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/tvJewelleryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_toEndOf="@+id/ivJewellery"
+                android:text="@string/poll_jewellery"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvJewelleryCount"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp10"
+                android:background="@drawable/bg_blue_badge"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llJewelleryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

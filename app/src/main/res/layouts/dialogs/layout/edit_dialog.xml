@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/dp20"
+    android:background="@color/black_trans">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_round_corner"
+        android:layout_weight="1">
+
+        <hcl.policing.digitalpolicingplatform.customLibraries.CustomScrollView
+            android:id="@+id/scrollViewProcess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llEditLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/dp16"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </hcl.policing.digitalpolicingplatform.customLibraries.CustomScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp55"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_alignParentBottom="true"
+            app:cardElevation="@dimen/dp5"
+            app:cardBackgroundColor="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp30"
+                    android:background="@color/white"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp25"
+                    android:layout_below="@+id/v1"
+                    android:background="@color/colorPrimary"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/et_info"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="@dimen/dp16"
+                        android:layout_marginEnd="-15dp"
+                        android:hint="@string/enter_info"
+                        android:background="@drawable/bg_curve_white"
+                        android:textColorHint="@color/warm_grey"
+                        android:textCursorDrawable="@drawable/cursor_drawable"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/sp15" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dp70"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_curve_button">
+
+                        <ImageView
+                            android:id="@+id/iv_send"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/dp10"
+                            app:srcCompat="@drawable/ic_mic" />
+
+                        <ImageView
+                            android:id="@+id/iv_rings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:visibility="gone"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/ringsmic"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_text"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/btn_background"
+        android:paddingStart="@dimen/dp16"
+        android:paddingTop="@dimen/dp7"
+        android:paddingEnd="@dimen/dp16"
+        android:paddingBottom="@dimen/dp8"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp18" />
+
+</LinearLayout>

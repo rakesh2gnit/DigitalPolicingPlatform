@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_trans">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp40"
+        android:background="@drawable/bg_round_corner"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_pocketbook"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp10"
+            android:background="@drawable/bg_round_corner"
+            android:gravity="clip_vertical"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white_trans"
+            android:hint="Type your pocketbook entry here"
+            android:padding="@dimen/dp8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginEnd="@dimen/dp10">
+
+            <ImageView
+                android:id="@+id/iv_mic"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:background="@drawable/bg_white_trans_circle"
+                android:gravity="center"
+                android:contentDescription="@string/icon"
+                app:srcCompat="@drawable/ic_mic_blue"
+                android:padding="@dimen/dp8" />
+
+            <TextView
+                android:id="@+id/tv_book_on"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:layout_marginStart="@dimen/dp10"
+                android:background="@drawable/bg_white_trans_circle"
+                android:gravity="center"
+                android:padding="@dimen/dp5"
+                android:text="@string/book_on"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"/>
+
+            <TextView
+                android:id="@+id/tv_book_off"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:layout_marginStart="@dimen/dp10"
+                android:background="@drawable/bg_white_trans_circle"
+                android:gravity="center"
+                android:padding="@dimen/dp5"
+                android:text="@string/book_off"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/dp20"
+                    android:layout_height="@dimen/dp20"
+                    android:gravity="center"
+                    android:layout_toStartOf="@+id/spn_status"
+                    android:contentDescription="@string/icon"
+                    app:srcCompat="@drawable/ic_lock_white"/>
+
+                <Spinner
+                    android:id="@+id/spn_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp5"
+                    android:backgroundTint="@color/white_trans"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            android:background="@drawable/btn_background"
+            android:paddingStart="@dimen/dp16"
+            android:paddingTop="@dimen/dp7"
+            android:paddingEnd="@dimen/dp16"
+            android:paddingBottom="@dimen/dp8"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18" />
+
+    </LinearLayout>
+
+</RelativeLayout>

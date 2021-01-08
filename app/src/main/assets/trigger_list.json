@@ -1,0 +1,83 @@
+{
+  "triggers": [
+    {
+      "triggerId": 120,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 1,
+      "subProcessName": "Create",
+      "triggerName": "createNewTasking",
+      "createdDate": "21-05-2020 13:42:38",
+      "modifiedDate": "21-05-2020 15:40:38"
+    },
+    {
+      "triggerId": 121,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 2,
+      "subProcessName": "Update",
+      "triggerName": "UpdateTasking",
+      "createdDate": "21-05-2020 13:43:23",
+      "modifiedDate": null
+    },
+    {
+      "triggerId": 126,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 1,
+      "subProcessName": "Create",
+      "triggerName": "test t trigger",
+      "createdDate": "31-05-2020 15:28:30",
+      "modifiedDate": null
+    },
+    {
+      "triggerId": 127,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 1,
+      "subProcessName": "Create",
+      "triggerName": "test2",
+      "createdDate": "31-05-2020 15:30:08",
+      "modifiedDate": null
+    },
+    {
+      "triggerId": 128,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 1,
+      "subProcessName": "Create",
+      "triggerName": "test3",
+      "createdDate": "31-05-2020 22:47:10",
+      "modifiedDate": null
+    },
+    {
+      "triggerId": 129,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 1,
+      "subProcessName": "Create",
+      "triggerName": "test5",
+      "createdDate": "31-05-2020 22:49:17",
+      "modifiedDate": null
+    },
+    {
+      "triggerId": 130,
+      "customerId": 1,
+      "processId": 2,
+      "processName": "Tasking",
+      "subProcessId": 1,
+      "subProcessName": "Create",
+      "triggerName": "test1",
+      "createdDate": "31-05-2020 22:54:58",
+      "modifiedDate": null
+    }
+  ],
+  "successFlag": true,
+  "message": "Triggers searched by CustomerId successfully"
+}

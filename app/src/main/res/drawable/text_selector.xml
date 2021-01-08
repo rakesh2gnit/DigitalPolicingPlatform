@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--this ribble animation only working for >= android version 21-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white" />
+
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_selected="true" android:color="@color/colorPrimary" />
+        <item android:state_focused="true" android:color="@color/colorPrimary" />
+        <item android:state_pressed="true" android:color="@color/colorPrimary" />
+        <item android:color="@color/textColor" /> &lt;!&ndash; default case &ndash;&gt;
+    </selector>-->

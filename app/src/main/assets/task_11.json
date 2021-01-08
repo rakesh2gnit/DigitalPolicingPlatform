@@ -1,0 +1,94 @@
+{
+  "Task": {
+    "TaskID": 11,
+    "CreatedBy": "46000001",
+    "TaskTypeID": 2,
+    "TaskTypeName": "Priority and Arrest",
+    "TaskDescription": "Arrest on priority",
+    "IntelligenceInformation": "Highly dangerous",
+    "Aim": "Arrest",
+    "MethodUtilised": "Handcuffs can be used",
+    "OfficerSafety": "Yes required",
+    "PostCode": "TW20 9QB",
+    "Town": "Egham",
+    "Street": "Road Number 2",
+    "HouseNo": "44",
+    "County": "Surrey",
+     "Latitude": "51.43048067547976",
+    "Longitude": "-0.5424361913017037",
+    "CreatedDate": "2019-10-19T15:30:52.747",
+    "Recurring": false,
+    "TaskStatus": "Completed",
+    "Priority": "M",
+    "IsActive": false,
+    "PageNumber": 0,
+    "StartDate": null,
+    "EndDate": null,
+    "Location": null,
+    "ManageTask": null,
+    "RelevantDate": "2019-10-02T00:00:00",
+    "RelevantTime": "",
+    "TaskImagesXML": null,
+    "ExpireDate": "2019-10-25T19:50:00",
+    "TimeLeftExpire": "800"
+  },
+    "RelevantNominalDetails": [
+    {
+      "NominalID": 16,
+      "TaskID": 9,
+      "FirstName": "John",
+      "LastName": "Smith",
+      "Alias": "Johnny",
+      "DOB": "2009-10-01T00:00:00",
+      "ContactDetails": "0989898989",
+      "SpecificInfo": "Main Person",
+      "IsActive": false,
+      "CreatedDate": "2019-10-18T14:46:40.113"
+    },
+    {
+      "NominalID": 17,
+      "TaskID": 9,
+      "FirstName": "David",
+      "LastName": "Carson",
+      "Alias": "Dave",
+      "DOB": "2011-10-06T00:00:00",
+      "ContactDetails": "0908989898",
+      "SpecificInfo": "Second Person",
+      "IsActive": false,
+      "CreatedDate": "2019-10-18T14:46:40.113"
+    }
+  ],
+  "RelevantVehicleDetails": [
+    {
+      "VehicleID": 16,
+      "TaskID": 9,
+      "VehicleVRM": "D69APL",
+      "Make": "Hyundai",
+      "Model": "I30",
+      "Colour": "Blue",
+      "SpecificInfo": "Personal Vehicle",
+      "IsActive": false,
+      "CreatedDate": "2019-10-18T14:46:40.113"
+    },
+    {
+      "VehicleID": 17,
+      "TaskID": 9,
+      "VehicleVRM": "SDJ23H",
+      "Make": "Kia",
+      "Model": "Seltos",
+      "Colour": "Red",
+      "SpecificInfo": "Second Vehicle",
+      "IsActive": false,
+      "CreatedDate": "2019-10-18T14:46:40.113"
+    }
+  ],
+  "TaskAssignOfficerDetails": [
+    
+  ],
+  "TaskImagesDetails": [
+    
+  ],
+  "TaskCommentsDetails": [
+    
+  ]
+}

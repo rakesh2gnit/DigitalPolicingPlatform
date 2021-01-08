@@ -1,0 +1,36 @@
+{
+  "Addresses": [
+    {
+      "AddressID": null,
+      "Building": "135",
+      "City": null,
+      "CompanyName": null,
+      "Country": null,
+      "County": "Medway",
+      "Forename": null,
+      "FromDate": null,
+      "HouseNo": null,
+      "Location": "",
+      "OccupantCount": null,
+      "Occupants": null,
+      "Postcode": null,
+      "Street": "Gordon Road",
+      "Surname": null,
+      "ToDate": null,
+      "Town": "Gillingham"
+    }
+  ],
+  "BaseDataContract": null,
+  "Citizens": [
+    {
+      "AddressDetails": null,
+      "CitizenNameForename": "Emma",
+      "CitizenNameSurname": "Allen",
+      "CompassKey": null,
+      "DisplayName": "Allen, Ms Emma",
+      "FromDate": null,
+      "Title": "Ms",
+      "ToDate": null
+    }
+  ]
+}

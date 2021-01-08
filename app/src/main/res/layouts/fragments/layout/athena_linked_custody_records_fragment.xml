@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_trans"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/bg_round_corner"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/llHeader"
+            layout="@layout/athena_header_layout"
+            android:visibility="visible" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp1"
+            android:layout_marginEnd="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp10"
+            android:orientation="vertical"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/llMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewFlowName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp1"
+                    android:visibility="visible"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="@dimen/dp5"
+                    card_view:cardCornerRadius="@dimen/dp2"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp10"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvFlowName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="@string/user_id"
+                            android:textColor="@color/blue_variant1"
+                            android:textSize="@dimen/sp12"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <include
+                    android:id="@+id/custodyDetail"
+                    layout="@layout/athena_custody_record_expand_items" />
+
+                <LinearLayout
+                    android:id="@+id/llReasonsOffence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rlReasonsOffence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/dp2">
+
+                        <ImageView
+                            android:id="@+id/ivReasonsOffence"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/images"
+                            android:foregroundGravity="center_vertical"
+                            android:outlineSpotShadowColor="@color/white"
+                            app:srcCompat="@drawable/ic_info" />
+
+                        <TextView
+                            android:id="@+id/tvReasonsOffenceName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/dp5"
+                            android:layout_toEndOf="@+id/ivReasonsOffence"
+                            android:text="@string/reasons_offences"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/sp16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvReasonsOffenceCount"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/dp10"
+                            android:background="@drawable/bg_blue_badge"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp12"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llReasonsOffenceContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp5"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llBailDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rlBailDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/dp2">
+
+                        <ImageView
+                            android:id="@+id/ivBailDetails"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/images"
+                            android:foregroundGravity="center_vertical"
+                            android:outlineSpotShadowColor="@color/white"
+                            app:srcCompat="@drawable/ic_info" />
+
+                        <TextView
+                            android:id="@+id/tvBailDetailsName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/dp5"
+                            android:layout_toEndOf="@+id/ivBailDetails"
+                            android:text="@string/bail_details"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/sp16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvBailDetailsCount"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/dp10"
+                            android:background="@drawable/bg_blue_badge"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp12"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llBailDetailsContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp5"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

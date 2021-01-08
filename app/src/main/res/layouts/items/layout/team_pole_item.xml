@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp1"
+        android:layout_marginBottom="@dimen/dp1"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="@dimen/dp2"
+        app:cardCornerRadius="@dimen/dp3"
+        app:contentPadding="@dimen/dp16">
+
+        <LinearLayout
+            android:id="@+id/llPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivView"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:elevation="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/view"
+        app:layout_anchor="@id/cardViewPerson"
+        app:layout_anchorGravity="bottom|right" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,71 @@
+{
+  "Task": {
+    "TaskID": 4,
+    "CreatedBy": "46000001",
+    "TaskTypeID": 2,
+    "TaskTypeName": "Bail Check",
+    "TaskDescription": "Check the person in house",
+    "IntelligenceInformation": "He might not be at home",
+    "Aim": "To do bail check",
+    "MethodUtilised": "talking",
+    "OfficerSafety": "No harm",
+    "PostCode": "TW9 1TB",
+    "Town": "Maidstone",
+    "Street": "High Street",
+    "HouseNo": "45",
+    "County": "Kent",
+    "Latitude": "51.43048067547976",
+    "Longitude": "-0.5424361913017037",
+    "CreatedDate": "2019-10-17T14:01:29.023",
+    "Recurring": false,
+    "TaskStatus": "Assigned",
+    "Priority": "M",
+    "IsActive": false,
+    "PageNumber": 0,
+    "StartDate": null,
+    "EndDate": null,
+    "Location": null,
+    "ManageTask": null,
+    "RelevantDate": "2019-10-17T00:00:00",
+    "RelevantTime": "",
+    "TaskImagesXML": null,
+    "ExpireDate": "2019-10-26T18:25:00",
+    "TimeLeftExpire": "13224"
+  },
+  "RelevantNominalDetails": [
+    {
+      "NominalID": 7,
+      "TaskID": 4,
+      "FirstName": "Jully",
+      "LastName": "Machintose",
+      "Alias": "Ju",
+      "DOB": "2019-10-03T00:00:00",
+      "ContactDetails": "8798782397",
+      "SpecificInfo": "Main person",
+      "IsActive": false,
+      "CreatedDate": "2019-10-17T14:01:29.023"
+    }
+  ],
+  "RelevantVehicleDetails": [
+    {
+      "VehicleID": 7,
+      "TaskID": 4,
+      "VehicleVRM": "DTY567S",
+      "Make": "Kia",
+      "Model": "Seltos",
+      "Colour": "Black",
+      "SpecificInfo": "Uses this vehicle",
+      "IsActive": false,
+      "CreatedDate": "2019-10-17T14:01:29.023"
+    }
+  ],
+  "TaskAssignOfficerDetails": [
+    
+  ],
+  "TaskImagesDetails": [
+    
+  ],
+  "TaskCommentsDetails": [
+    
+  ]
+}

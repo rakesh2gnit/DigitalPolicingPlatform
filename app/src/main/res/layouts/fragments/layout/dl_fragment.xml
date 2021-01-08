@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_trans"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/bg_round_corner"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/dp10"
+        android:paddingEnd="@dimen/dp10"
+        android:paddingBottom="@dimen/dp10">
+
+        <LinearLayout
+            android:id="@+id/llHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPersonHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/choose_officer"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvManually"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:paddingStart="@dimen/dp8"
+                android:paddingEnd="@dimen/dp8"
+                android:paddingBottom="@dimen/dp1"
+                android:text="@string/enter_manually"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/dp10"
+            android:text="@string/dl_check_header"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/sp16"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPersonList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp5"
+            android:scrollbars="none" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:gravity="center_horizontal"
+        android:text="@string/no_data"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_anchor="@id/rlMain"
+        app:layout_anchorGravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:id="@+id/ivCross"
+        android:layout_width="@dimen/dp25"
+        android:layout_height="@dimen/dp25"
+        android:elevation="@dimen/dp3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_cancel"
+        android:visibility="gone"
+        app:layout_anchor="@id/rlMain"
+        app:layout_anchorGravity="top|right" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

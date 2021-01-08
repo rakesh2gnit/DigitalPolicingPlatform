@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_trans">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginBottom="@dimen/dp40"
+        android:paddingTop="@dimen/dp10"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_round_corner"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/tv_browse"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp40"
+                android:background="@drawable/bg_white_trans"
+                android:text="Choose File"
+                android:drawablePadding="@dimen/dp10"
+                android:drawableStart="@drawable/ic_attachment"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp15"
+                android:paddingStart="@dimen/dp10"
+                android:paddingEnd="@dimen/dp40"/>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_attachment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/dp5"
+            android:layout_marginTop="@dimen/dp6"
+            android:layout_marginBottom="@dimen/dp6"/>
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            android:paddingStart="@dimen/dp16"
+            android:paddingEnd="@dimen/dp16"
+            android:paddingTop="@dimen/dp7"
+            android:paddingBottom="@dimen/dp8"
+            android:background="@drawable/btn_background"
+            android:textSize="@dimen/sp18"
+            android:textColor="@color/white"
+            android:text="Done"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

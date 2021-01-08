@@ -1,0 +1,14 @@
+{
+  "BaseDataContract": null,
+  "DNAList": [
+    {
+      "ASRef": "00/0000/00/20424Z",
+      "DNAStatus": "E: 90000084       SENT TO LAB: FO",
+      "DateOfSample": "",
+      "FSRef": "",
+      "SampleBarcode": "27/02/00",
+      "SampleType": "",
+      "SentToLab": "SWAB  FS/REF: 34ND/13672/99"
+    }
+  ]
+}

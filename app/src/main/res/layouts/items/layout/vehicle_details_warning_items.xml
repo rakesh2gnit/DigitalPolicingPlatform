@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/other"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/sp12"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLabelValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:text="Gaurav Kumar"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp12" />
+
+            <TextView
+                android:id="@+id/tvLabelDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp2"
+                android:gravity="start|center_vertical"
+                android:text="(12/12/2020)"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp12" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLabelDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Gaurav Kumar"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/sp12" />
+
+</LinearLayout>

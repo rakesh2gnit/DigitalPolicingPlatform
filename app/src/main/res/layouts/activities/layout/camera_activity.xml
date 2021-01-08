@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_trans">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp40"
+        android:background="@drawable/bg_round_corner"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/tv_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp40"
+                android:background="@drawable/bg_white_trans"
+                android:gravity="center"
+                android:paddingStart="@dimen/dp40"
+                android:paddingEnd="@dimen/dp40"
+                android:text="@string/title_camera"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp40"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/bg_white_trans"
+                android:gravity="center"
+                android:paddingStart="@dimen/dp40"
+                android:paddingEnd="@dimen/dp40"
+                android:text="@string/browse_image"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/dp6"
+            android:layout_marginBottom="@dimen/dp6"
+            android:layout_weight="1"
+            android:padding="@dimen/dp5" />
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            android:background="@drawable/btn_background"
+            android:paddingStart="@dimen/dp16"
+            android:paddingTop="@dimen/dp7"
+            android:paddingEnd="@dimen/dp16"
+            android:paddingBottom="@dimen/dp8"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp10"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_parent"
+                android:layout_width="@dimen/dp220"
+                android:layout_height="@dimen/dp45"
+                android:background="@drawable/bg_blue_border">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp45"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tv_pocketbook_back"
+                        android:layout_width="@dimen/dp0"
+                        android:layout_height="@dimen/dp45"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/pocketbook_entries"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/sp13" />
+
+                    <TextView
+                        android:id="@+id/tv_all_back"
+                        android:layout_width="@dimen/dp0"
+                        android:layout_height="@dimen/dp45"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/all_entries"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/sp13" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp45"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tv_pocketbook"
+                        android:layout_width="@dimen/dp0"
+                        android:layout_height="@dimen/dp45"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_blue_round"
+                        android:gravity="center"
+                        android:text="@string/pocketbook_entries"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp13"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tv_all"
+                        android:layout_width="@dimen/dp0"
+                        android:layout_height="@dimen/dp45"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_blue_round"
+                        android:gravity="center"
+                        android:text="@string/all_entries"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp13"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/dp1"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <hcl.policing.digitalpolicingplatform.customLibraries.MovableFloatingActionButton
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/dp16"
+        android:layout_marginBottom="@dimen/dp16"
+        android:alpha="0.9"
+        android:elevation="@dimen/dp10"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="@dimen/dp5"
+        app:fabSize="normal"
+        app:maxImageSize="@dimen/dp40"/>
+
+</RelativeLayout>

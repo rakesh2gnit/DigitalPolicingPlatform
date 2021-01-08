@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dp10"
+    android:layout_marginTop="@dimen/dp1"
+    android:layout_marginEnd="@dimen/dp10"
+    android:fillViewport="true"
+    android:measureAllChildren="false"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/llSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="@dimen/dp5"
+        android:paddingEnd="@dimen/dp5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvStepOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_arrow_right_white"
+            android:gravity="center_vertical"
+            android:text="@string/stop_process"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/sp10" />
+
+        <TextView
+            android:id="@+id/tvStepTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/stop_process"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/sp10" />
+
+        <TextView
+            android:id="@+id/tvStepThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_arrow_right_white"
+            android:gravity="center_vertical"
+            android:text="@string/stop_process"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/sp10"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvStepFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_arrow_right_white"
+            android:gravity="center_vertical"
+            android:text="@string/stop_process"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/sp10"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</HorizontalScrollView>

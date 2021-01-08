@@ -1,0 +1,822 @@
+{
+  "Color" : [
+    {
+      "Name" : "Beige"
+    },
+    {
+      "Name" : "Black"
+    },
+    {
+      "Name" : "Blue"
+    },
+    {
+      "Name" : "Bronze"
+    },
+    {
+      "Name" : "Brown"
+    },
+    {
+      "Name" : "Cream"
+    },
+    {
+      "Name" : "Gold"
+    },
+    {
+      "Name" : "Green"
+    },
+    {
+      "Name" : "Grey"
+    },
+    {
+      "Name" : "Maroon"
+    },
+    {
+      "Name" : "Orange"
+    },
+    {
+      "Name" : "Pink"
+    },
+    {
+      "Name" : "Purple"
+    },
+    {
+      "Name" : "Red"
+    },
+    {
+      "Name" : "Silver"
+    },
+    {
+      "Name" : "Turquoise"
+    },
+    {
+      "Name" : "White"
+    },
+    {
+      "Name" : "Yellow"
+    }
+  ],
+  "Art" : [
+    {
+      "Name" : "Drawing"
+    },
+    {
+      "Name" : "Mask"
+    },
+    {
+      "Name" : "Mosaic"
+    },
+    {
+      "Name" : "Other"
+    },
+    {
+      "Name" : "Painting"
+    },
+    {
+      "Name" : "Photography"
+    },
+    {
+      "Name" : "Pottery"
+    },
+    {
+      "Name" : "Sculpture"
+    },
+    {
+      "Name" : "Weaving"
+    }
+  ],
+  "BodyPart" : [
+    {
+      "Name" : "Abdomen"
+    },
+    {
+      "Name" : "Ankle"
+    },
+    {
+      "Name" : "Arms"
+    },
+    {
+      "Name" : "Back"
+    },
+    {
+      "Name" : "Breast"
+    },
+    {
+      "Name" : "Brow"
+    },
+    {
+      "Name" : "Buttocks"
+    },
+    {
+      "Name" : "Chest"
+    },
+    {
+      "Name" : "Chin"
+    },
+    {
+      "Name" : "Ears"
+    },
+    {
+      "Name" : "Elbow"
+    },
+    {
+      "Name" : "Eyebrow"
+    },
+    {
+      "Name" : "Eyes"
+    },
+    {
+      "Name" : "Face"
+    },
+    {
+      "Name" : "Feet"
+    },
+    {
+      "Name" : "Finger"
+    },
+    {
+      "Name" : "Gait"
+    },
+    {
+      "Name" : "Genitals"
+    },
+    {
+      "Name" : "Hand"
+    },
+    {
+      "Name" : "Hips"
+    },
+    {
+      "Name" : "Knee"
+    },
+    {
+      "Name" : "Legs"
+    },
+    {
+      "Name" : "Lips"
+    },
+    {
+      "Name" : "Neck"
+    },
+    {
+      "Name" : "Nipple"
+    },
+    {
+      "Name" : "Nose"
+    },
+    {
+      "Name" : "Penis"
+    },
+    {
+      "Name" : "Scalp"
+    },
+    {
+      "Name" : "Speech"
+    },
+    {
+      "Name" : "Teeth"
+    },
+    {
+      "Name" : "Toes"
+    },
+    {
+      "Name" : "Tongue"
+    },
+    {
+      "Name" : "Wrist"
+    }
+  ],
+  "BuildingMaterial" : [
+    {
+      "Name" : "Bath"
+    },
+    {
+      "Name" : "Bathroom Unit"
+    },
+    {
+      "Name" : "Bedroom Unit"
+    },
+    {
+      "Name" : "Bidet"
+    },
+    {
+      "Name" : "Boarding"
+    },
+    {
+      "Name" : "Boiler"
+    },
+    {
+      "Name" : "Brick"
+    },
+    {
+      "Name" : "Cement/Concrete"
+    },
+    {
+      "Name" : "Door"
+    },
+    {
+      "Name" : "Door/Window Frame"
+    },
+    {
+      "Name" : "Electrical Fitting"
+    },
+    {
+      "Name" : "Fastening/Fixing"
+    },
+    {
+      "Name" : "Fireplace/Surround"
+    },
+    {
+      "Name" : "Garage Door"
+    },
+    {
+      "Name" : "Gas Fire"
+    },
+    {
+      "Name" : "Glass"
+    },
+    {
+      "Name" : "Guttering/Pipe"
+    },
+    {
+      "Name" : "Insulation Material"
+    },
+    {
+      "Name" : "Kitchen Unit"
+    },
+    {
+      "Name" : "Lighting"
+    },
+    {
+      "Name" : "Other"
+    },
+    {
+      "Name" : "Paving Stone"
+    },
+    {
+      "Name" : "Plastering Material"
+    },
+    {
+      "Name" : "Plumbing Fitting"
+    },
+    {
+      "Name" : "Radiator"
+    },
+    {
+      "Name" : "Roofing Material"
+    },
+    {
+      "Name" : "Shower Unit"
+    },
+    {
+      "Name" : "Sink"
+    },
+    {
+      "Name" : "Study Unit"
+    },
+    {
+      "Name" : "Thermostat/Control"
+    },
+    {
+      "Name" : "Tile"
+    },
+    {
+      "Name" : "Timber"
+    },
+    {
+      "Name" : "Ventilator"
+    },
+    {
+      "Name" : "Wash Basin"
+    }
+  ],
+  "Caravan" : [
+    {
+      "Name" : "Artic"
+    },
+    {
+      "Name" : "Caravan"
+    },
+    {
+      "Name" : "Container"
+    },
+    {
+      "Name" : "Multi Axle Trailer"
+    },
+    {
+      "Name" : "Sidecar"
+    },
+    {
+      "Name" : "Single Axle Trailer"
+    }
+  ],
+  "Clothing" : [
+    {
+      "Name" : "Dress"
+    },
+    {
+      "Name" : "Glove"
+    },
+    {
+      "Name" : "Headwear"
+    },
+    {
+      "Name" : "Hosiery"
+    },
+    {
+      "Name" : "Jacket"
+    },
+    {
+      "Name" : "Kilt"
+    },
+    {
+      "Name" : "Knitwear"
+    },
+    {
+      "Name" : "Multi-piece"
+    },
+    {
+      "Name" : "Nightwear"
+    },
+    {
+      "Name" : "one-piece"
+    },
+    {
+      "Name" : "Overcoat"
+    },
+    {
+      "Name" : "Protective Wear"
+    },
+    {
+      "Name" : "Religious Vestment"
+    },
+    {
+      "Name" : "Scarf"
+    },
+    {
+      "Name" : "Shirt"
+    },
+    {
+      "Name" : "Shorts"
+    },
+    {
+      "Name" : "Skirt"
+    },
+    {
+      "Name" : "Swimwear"
+    },
+    {
+      "Name" : "Tie"
+    },
+    {
+      "Name" : "Trousers"
+    },
+    {
+      "Name" : "Underwear"
+    },
+    {
+      "Name" : "Waistcoat"
+    },
+    {
+      "Name" : "Workwear"
+    }
+  ],
+  "Document" : [
+    {
+      "Name" : "Bond"
+    },
+    {
+      "Name" : "Cheque"
+    },
+    {
+      "Name" : "Driving Licence"
+    },
+    {
+      "Name" : "ID Card"
+    },
+    {
+      "Name" : "Passport"
+    },
+    {
+      "Name" : "Payment Card"
+    },
+    {
+      "Name" : "Shares"
+    },
+    {
+      "Name" : "Treasury Note"
+    }
+  ],
+  "Drugs" : [
+    {
+      "Name" : "Class A"
+    },
+    {
+      "Name" : "Class B"
+    },
+    {
+      "Name" : "Class C"
+    },
+    {
+      "Name" : "Drug Not Known"
+    },
+    {
+      "Name" : "Uncontrolled"
+    }
+  ],
+  "Electrical" : [
+    {
+      "Name" : "Audio Equipment"
+    },
+    {
+      "Name" : "Automatic Machine"
+    },
+    {
+      "Name" : "Computer Equipment"
+    },
+    {
+      "Name" : "Household Electrical"
+    },
+    {
+      "Name" : "Miscellaneous Equipment"
+    },
+    {
+      "Name" : "Telecoms Equipment"
+    }
+  ],
+  "Jewellery" : [
+    {
+      "Name" : "Amulet"
+    },
+    {
+      "Name" : "Anklet"
+    },
+    {
+      "Name" : "Belly Chain"
+    },
+    {
+      "Name" : "Belt Buckle"
+    },
+    {
+      "Name" : "Bracelet"
+    },
+    {
+      "Name" : "Brooch"
+    },
+    {
+      "Name" : "Chatelaine"
+    },
+    {
+      "Name" : "Collar Pin"
+    },
+    {
+      "Name" : "Crown"
+    },
+    {
+      "Name" : "Cufflink"
+    },
+    {
+      "Name" : "Earring"
+    },
+    {
+      "Name" : "Hair Clip/Barrette"
+    },
+    {
+      "Name" : "Lapel Pin"
+    },
+    {
+      "Name" : "Necklace"
+    },
+    {
+      "Name" : "Pendant"
+    },
+    {
+      "Name" : "Tiara"
+    },
+    {
+      "Name" : "Tie Clip"
+    },
+    {
+      "Name" : "Tie Pin"
+    },
+    {
+      "Name" : "Toe Ring"
+    },
+    {
+      "Name" : "Watch (Pocket)"
+    },
+    {
+      "Name" : "Watch (Strap)"
+    }
+  ],
+  "Mobile" : [
+    {
+      "Name" : "Calculator"
+    },
+    {
+      "Name" : "Digital Camcoder"
+    },
+    {
+      "Name" : "Digital Camera"
+    },
+    {
+      "Name" : "Enterprise Digital Assistant"
+    },
+    {
+      "Name" : "Handheld Game Device"
+    },
+    {
+      "Name" : "Laptop"
+    },
+    {
+      "Name" : "Mobile Phone"
+    },
+    {
+      "Name" : "Navigation Devices"
+    },
+    {
+      "Name" : "Other"
+    },
+    {
+      "Name" : "Pager"
+    },
+    {
+      "Name" : "Personal Digital Assistant PDA"
+    },
+    {
+      "Name" : "Portable Media Player"
+    },
+    {
+      "Name" : "Smart Watch"
+    },
+    {
+      "Name" : "Tablet"
+    }
+  ],
+  "PedalCycle" : [
+    {
+      "Name" : "Bicycle"
+    },
+    {
+      "Name" : "Tricycle"
+    },
+    {
+      "Name" : "Wheelchair"
+    }
+  ],
+  "PlantMachinery" : [
+    {
+      "Name" : "Agricultural Machine"
+    },
+    {
+      "Name" : "Air Compressor"
+    },
+    {
+      "Name" : "Bobcat"
+    },
+    {
+      "Name" : "Bowser"
+    },
+    {
+      "Name" : "Breaker"
+    },
+    {
+      "Name" : "Bucket"
+    },
+    {
+      "Name" : "Bulldozer"
+    },
+    {
+      "Name" : "Bulldozer Attachment"
+    },
+    {
+      "Name" : "Butt-Welder"
+    },
+    {
+      "Name" : "Chasing Machine"
+    },
+    {
+      "Name" : "Chip Spreader"
+    },
+    {
+      "Name" : "Chop Saw"
+    },
+    {
+      "Name" : "Clay Digger"
+    },
+    {
+      "Name" : "Concrete Mixer"
+    },
+    {
+      "Name" : "Concrete Pump"
+    },
+    {
+      "Name" : "Crane"
+    },
+    {
+      "Name" : "Cutter"
+    },
+    {
+      "Name" : "Dehumidifier"
+    },
+    {
+      "Name" : "Digger"
+    },
+    {
+      "Name" : "Disc Cutter"
+    },
+    {
+      "Name" : "Drier"
+    },
+    {
+      "Name" : "Drill"
+    },
+    {
+      "Name" : "Dumper"
+    },
+    {
+      "Name" : "Excavator"
+    },
+    {
+      "Name" : "Grab"
+    },
+    {
+      "Name" : "Grader"
+    },
+    {
+      "Name" : "Grinder"
+    },
+    {
+      "Name" : "Hammer"
+    },
+    {
+      "Name" : "Heater"
+    },
+    {
+      "Name" : "Hoist"
+    },
+    {
+      "Name" : "Hydraulic Loader"
+    },
+    {
+      "Name" : "Hydraulic Power Pack"
+    },
+    {
+      "Name" : "Jack Hammer"
+    },
+    {
+      "Name" : "Jetter or Hydrojet"
+    },
+    {
+      "Name" : "Jetting Machine"
+    },
+    {
+      "Name" : "Lift Truck"
+    },
+    {
+      "Name" : "Lighting Set"
+    },
+    {
+      "Name" : "Loader"
+    },
+    {
+      "Name" : "Loader Attachment"
+    },
+    {
+      "Name" : "Masonry Saw"
+    },
+    {
+      "Name" : "Mobile Welder"
+    },
+    {
+      "Name" : "Mole"
+    },
+    {
+      "Name" : "Mower"
+    },
+    {
+      "Name" : "Nibbler"
+    },
+    {
+      "Name" : "Other"
+    },
+    {
+      "Name" : "Pallet Truck"
+    },
+    {
+      "Name" : "Paver"
+    },
+    {
+      "Name" : "Pile Driver Attachment"
+    },
+    {
+      "Name" : "Pile Driver Hammer"
+    },
+    {
+      "Name" : "Planer"
+    },
+    {
+      "Name" : "Platform Lift"
+    },
+    {
+      "Name" : "Power Barrow"
+    },
+    {
+      "Name" : "Power Saw"
+    },
+    {
+      "Name" : "Power Trowel"
+    },
+    {
+      "Name" : "Pressure Cleaner"
+    },
+    {
+      "Name" : "Pulveriser"
+    },
+    {
+      "Name" : "Pump"
+    },
+    {
+      "Name" : "Rammer"
+    },
+    {
+      "Name" : "Ripper"
+    },
+    {
+      "Name" : "Ripper Attachment"
+    },
+    {
+      "Name" : "Scraper"
+    },
+    {
+      "Name" : "Screeder"
+    },
+    {
+      "Name" : "Shears"
+    },
+    {
+      "Name" : "Shot Blaster"
+    },
+    {
+      "Name" : "Skid Steer"
+    },
+    {
+      "Name" : "Sprayer"
+    },
+    {
+      "Name" : "Survey Equipment"
+    },
+    {
+      "Name" : "Sweeper"
+    },
+    {
+      "Name" : "Telescopic Handler"
+    },
+    {
+      "Name" : "Theodolite"
+    },
+    {
+      "Name" : "Tower Crane"
+    },
+    {
+      "Name" : "Tractor"
+    },
+    {
+      "Name" : "Transformer"
+    },
+    {
+      "Name" : "Trench Digger"
+    },
+    {
+      "Name" : "Trench Digger Attachment"
+    },
+    {
+      "Name" : "Vibrating Compactor, Poker"
+    },
+    {
+      "Name" : "Wacker"
+    },
+    {
+      "Name" : "Washer"
+    },
+    {
+      "Name" : "Welder"
+    },
+    {
+      "Name" : "Winch"
+    }
+  ],
+  "Weapon" : [
+    {
+      "Name" : "Ammunition"
+    },
+    {
+      "Name" : "Gun"
+    },
+    {
+      "Name" : "Offensive Weapon"
+    },
+    {
+      "Name" : "Other Ballistic Item"
+    }
+  ]
+}

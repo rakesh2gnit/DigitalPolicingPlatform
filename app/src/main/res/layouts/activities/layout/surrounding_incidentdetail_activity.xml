@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp10"
+            android:text="@string/incident_details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp22"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            app:cardCornerRadius="@dimen/dp2"
+            app:cardElevation="@dimen/dp1"
+            app:contentPadding="@dimen/dp10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_incident_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="clip_vertical"
+                        android:text="KP-20190201-020"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/sp20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_incident_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="01-02-2019 12:03PM"
+                        android:textColor="@color/grey_text"
+                        android:textSize="@dimen/sp12" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp2"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:drawableStart="@drawable/ic_location_green"
+                    android:drawablePadding="@dimen/dp8"
+                    android:text="21, Reid Street, Egham, TW20 9WB"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/sp12" />
+
+                <TextView
+                    android:id="@+id/tv_incident_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:gravity="clip_vertical"
+                    android:text="@string/robbery"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp12" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_incident_description"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="clip_vertical"
+                        android:text="Shop has been robbed."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp12" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:background="@color/grey_light_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="clip_vertical"
+                        android:text="@string/reporting_person"
+                        android:textColor="@color/grey_text"
+                        android:textSize="@dimen/sp15" />
+
+                    <TextView
+                        android:id="@+id/tv_reporting_person"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="clip_vertical"
+                        android:text="John Smith"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp12" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="clip_vertical"
+                        android:text="@string/office_incharge"
+                        android:textColor="@color/grey_text"
+                        android:textSize="@dimen/sp15" />
+
+                    <TextView
+                        android:id="@+id/tv_incharge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="clip_vertical"
+                        android:text="Kevin Dawson (46515917)"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp12" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginEnd="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_weight="1">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/iv_gps"
+                android:layout_width="@dimen/dp40"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/dp10"
+                app:srcCompat="@drawable/ic_gps" />
+
+            <Button
+                android:id="@+id/btn_navigation"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/dp10"
+                android:background="@drawable/ic_navigation" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_complete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginEnd="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp10"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="@string/view_more"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <hcl.policing.digitalpolicingplatform.customLibraries.MovableFloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp90"
+        android:layout_marginEnd="@dimen/dp16"
+        android:src="@drawable/ic_play"
+        app:backgroundTint="@color/grey_text"
+        app:elevation="@dimen/dp5"
+        app:fabSize="normal"
+        app:maxImageSize="@dimen/dp40" />
+
+</RelativeLayout>

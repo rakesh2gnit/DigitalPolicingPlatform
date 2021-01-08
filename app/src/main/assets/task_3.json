@@ -1,0 +1,71 @@
+{
+  "Task": {
+    "TaskID": 3,
+    "CreatedBy": "46000001",
+    "TaskTypeID": 2,
+    "TaskTypeName": "Priority and Arrest",
+    "TaskDescription": "Quickly Arrest",
+    "IntelligenceInformation": "He is criminal",
+    "Aim": "Arrest and custody",
+    "MethodUtilised": "Handcuffs",
+    "OfficerSafety": "Stay safe",
+    "PostCode": "TW20 9QB",
+    "Town": "Egham",
+    "Street": "Chruch Street",
+    "HouseNo": "21",
+    "County": "Surrey",
+    "Latitude": "51.43048067547976",
+    "Longitude": "-0.5424361913017037",
+    "CreatedDate": "2019-10-17T13:57:37.647",
+    "Recurring": false,
+    "TaskStatus": "Pending",
+    "Priority": "M",
+    "IsActive": false,
+    "PageNumber": 0,
+    "StartDate": null,
+    "EndDate": null,
+    "Location": null,
+    "ManageTask": null,
+    "RelevantDate": "2019-10-17T00:00:00",
+    "RelevantTime": "",
+    "TaskImagesXML": null,
+    "ExpireDate": "2019-10-18T18:25:00",
+    "TimeLeftExpire": "17008"
+  },
+  "RelevantNominalDetails": [
+    {
+      "NominalID": 6,
+      "TaskID": 3,
+      "FirstName": "James",
+      "LastName": "Thomas",
+      "Alias": "Jon",
+      "DOB": "2010-10-01T00:00:00",
+      "ContactDetails": "9898989898",
+      "SpecificInfo": "He is the main person",
+      "IsActive": false,
+      "CreatedDate": "2019-10-17T13:57:37.65"
+    }
+  ],
+  "RelevantVehicleDetails": [
+    {
+      "VehicleID": 6,
+      "TaskID": 3,
+      "VehicleVRM": "D69APL",
+      "Make": "Hyundai",
+      "Model": "I30",
+      "Colour": "Blue",
+      "SpecificInfo": "Uses this vehicle",
+      "IsActive": false,
+      "CreatedDate": "2019-10-17T13:57:37.65"
+    }
+  ],
+  "TaskAssignOfficerDetails": [
+    
+  ],
+  "TaskImagesDetails": [
+    
+  ],
+  "TaskCommentsDetails": [
+    
+  ]
+}

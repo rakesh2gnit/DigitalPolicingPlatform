@@ -1,0 +1,60 @@
+{
+  "BaseDataContract": null,
+  "ForceCode": null,
+  "NFLMSDetailsResponse": {
+    "LstAddress": [
+      {
+        "AddressID": "4089",
+        "AddressLine1": "Medway Hospital",
+        "AddressLine2": "Windmill Road",
+        "AddressLine3": "Gillingham",
+        "AddressLine4": "Kent",
+        "AddressLine5": "",
+        "AddressLine6": "",
+        "AddressType_ID": null,
+        "Blue8Reference": null,
+        "ContactCharacteristic_ID": null,
+        "GridReference": null,
+        "PersonNumber": null,
+        "Postcode": "ME7 5NY",
+        "SecurityTypeDescription": null,
+        "TelephoneNumber": "(01634) 830000 ext 549",
+        "UPRN": ""
+      },
+      {
+        "AddressID": "4000",
+        "AddressLine1": "4 Corn Mill Court",
+        "AddressLine2": "East Road",
+        "AddressLine3": "Saffron Walden",
+        "AddressLine4": "",
+        "AddressLine5": "",
+        "AddressLine6": "",
+        "AddressType_ID": null,
+        "Blue8Reference": null,
+        "ContactCharacteristic_ID": null,
+        "GridReference": null,
+        "PersonNumber": null,
+        "Postcode": "CB11 3AE",
+        "SecurityTypeDescription": null,
+        "TelephoneNumber": "",
+        "UPRN": "100091411111"
+      }
+    ],
+    "LstCertificateDetails": null,
+    "LstPerson": [
+      {
+        "BirthDate": "03/01/1986",
+        "CompanyName": null,
+        "ForeName": "Michael",
+        "Height": null,
+        "PNC_ID": "12/11177Z",
+        "PersonNumber": "0000632000",
+        "SurName": "BARRETT",
+        "TelephoneNumber": "07894 444415"
+      }
+    ],
+    "LstWeapon": null
+  },
+  "SearchResult": null,
+  "securityToken": null
+}

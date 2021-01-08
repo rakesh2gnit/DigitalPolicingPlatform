@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:layout_margin="@dimen/dp5"
+        app:cardCornerRadius="@dimen/dp8"
+        app:cardElevation="@dimen/dp2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_add_fields"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp62"
+                android:padding="@dimen/dp10"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:layout_below="@+id/ll_add_fields">
+
+                <TextView
+                    android:id="@+id/tv_view_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingStart="@dimen/dp20"
+                    android:paddingEnd="@dimen/dp20"
+                    android:gravity="center"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/sp15"
+                    android:textStyle="bold"
+                    android:text="@string/view_mor"/>
+
+                <TextView
+                    android:id="@+id/tv_view_less"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:paddingStart="@dimen/dp20"
+                    android:paddingEnd="@dimen/dp20"
+                    android:gravity="center"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/sp15"
+                    android:textStyle="bold"
+                    android:text="@string/view_less"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

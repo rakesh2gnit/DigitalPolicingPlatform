@@ -1,0 +1,193 @@
+{
+  "SearchList": [
+    {
+      "Label": "Pole",
+      "LabelId": 100,
+      "TotalCount": 2,
+      "PageCount": 1,
+      "isMoreData": false,
+      "viewType": "recyclerview",
+      "functionName": "apiName",
+      "LabelSection": [
+        {
+          "id": "",
+          "audit_detail": "",
+          "action": "ServerHit",
+          "warnings": [
+            {
+              "Name": "Warning 1",
+              "Value": ""
+            },
+            {
+              "Name": "Warning 1",
+              "Value": ""
+            }
+          ],
+          "LabelSectionDetails": [
+            {
+              "Name": "",
+              "Value": "Jones Mark",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "DOB",
+              "Value": "18/01/1980",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Age",
+              "Value": "18",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Gender",
+              "Value": "Male",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "PNC ID",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Markers",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Flags",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Ethnicity",
+              "Value": "White-North European",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Address",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": "Map"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "audit_detail": "",
+          "action": null,
+          "warnings": [
+            {
+              "Name": "Warning 1",
+              "Value": ""
+            },
+            {
+              "Name": "Warning 1",
+              "Value": ""
+            }
+          ],
+          "LabelSectionDetails": [
+            {
+              "Name": "",
+              "Value": "Jones Mark Lee",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "DOB",
+              "Value": "19/12/1979",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Age",
+              "Value": "18",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Gender",
+              "Value": "Male",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "PNC ID",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Markers",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Flags",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Ethnicity",
+              "Value": "White-North European",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": null
+            },
+            {
+              "Name": "Address",
+              "Value": "",
+              "url": null,
+              "color": "#FFFFFF",
+              "viewType": "text",
+              "action": "Map"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

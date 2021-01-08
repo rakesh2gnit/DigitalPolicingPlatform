@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <FrameLayout
+        android:id="@+id/fragment_miccontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_addInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_pocketbook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_pocketDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_torcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_torDetailscontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_witnessContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_witnessDetailscontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/fragment_crimeSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <FrameLayout
+        android:id="@+id/micdarkback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@color/grey_text"
+        android:elevation="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp104" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/virtual_assistance"
+        android:textColor="@color/grey_variant_5"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_mic"
+        android:layout_width="@dimen/dp110"
+        android:layout_height="@dimen/dp110"
+        android:layout_marginStart="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp140"
+        android:layout_marginEnd="@dimen/dp8"
+        android:elevation="@dimen/dp30"
+        android:src="@drawable/btnmic"
+        android:contentDescription="@string/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/iv_rings"
+        android:layout_width="@dimen/dp225"
+        android:layout_height="@dimen/dp225"
+        android:layout_marginStart="@dimen/dp7"
+        android:layout_marginTop="@dimen/dp140"
+        android:layout_marginEnd="@dimen/dp7"
+        android:layout_marginBottom="@dimen/dp50"
+        android:src="@drawable/ringsmic"
+        android:contentDescription="@string/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginBottom="@dimen/dp32"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/grey_variant_4"
+        android:textSize="@dimen/sp20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_rings" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

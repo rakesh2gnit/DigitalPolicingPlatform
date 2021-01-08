@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_trans"
+    android:orientation="vertical"
+    android:padding="@dimen/dp16">
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp18" />
+
+        <TextView
+            android:id="@+id/item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp13" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_view"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp5"
+        android:textColor="@color/warm_grey" />
+
+    <ImageView
+        android:id="@+id/img_fingerprint"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="@dimen/dp60"
+        android:layout_below="@id/item_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:src="@drawable/ic_fingerprint" />
+
+
+    <TextView
+        android:id="@+id/item_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_fingerprint"
+        android:layout_marginTop="@dimen/dp16"
+        android:gravity="center"
+        android:textColor="@color/warm_grey" />
+
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_status"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@null"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

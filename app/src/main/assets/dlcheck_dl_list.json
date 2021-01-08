@@ -1,0 +1,37 @@
+{
+  "BaseDataContract": null,
+  "DrivingLicenceByIDList": [
+    {
+      "Address": "3 MIDDLE LANE\r\nALDFORD\r\nCHESTER\r\n\r\n",
+      "BirthPlace": "ENGLAND",
+      "CommencementDate": "28/05/1998",
+      "CounterPartIssueNo": "A",
+      "DOB": "28/07/1966",
+      "Disqualification": "DISQUALIFIED UNTIL 09/01/2010",
+      "Disqualified": "",
+      "DrinkDrug": "2",
+      "DrivingLicenceNo": "HELM9607286R99SN",
+      "ExpiryDate": "27/07/2036",
+      "Gender": "MALE",
+      "LastUpdated": "01/03/2002 11:49",
+      "LicenceIssueNo": "61",
+      "LicenceType": "",
+      "Name": "HELM,ROY",
+      "Other": "",
+      "Points": "15",
+      "Postcode": "CH036JF",
+      "RecordType": "RECORD TYPE EXPIRED SUBSTANTIVE",
+      "Title": "MR"
+    }
+  ],
+  "DrivingLicenceByNameList": null,
+  "dLMenuDTList": null,
+  "dLMenuEDList": null,
+  "dLMenuESList": null,
+  "dLMenuFEList": null,
+  "dLMenuPEList": null,
+  "dLMenuSMList": null,
+  "dLMenuUTList": null,
+  "dLMenuXRList": null
+}
+

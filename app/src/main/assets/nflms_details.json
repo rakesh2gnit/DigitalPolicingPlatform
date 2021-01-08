@@ -1,0 +1,57 @@
+{
+  "BaseDataContract": null,
+  "ForceCode": null,
+  "NFLMSDetailsResponse": {
+    "LstAddress": [
+      {
+        "AddressID": "1111",
+        "AddressLine1": "1 Grange Test",
+        "AddressLine2": "Langley Test Test",
+        "AddressLine3": "Saffron Walden",
+        "AddressLine4": "County",
+        "AddressLine5": "",
+        "AddressLine6": "",
+        "AddressType_ID": null,
+        "Blue8Reference": null,
+        "ContactCharacteristic_ID": null,
+        "GridReference": null,
+        "PersonNumber": null,
+        "Postcode": "DB11 4RY",
+        "SecurityTypeDescription": null,
+        "TelephoneNumber": "(01799) 550020",
+        "UPRN": ""
+      }
+    ],
+    "LstCertificateDetails": null,
+    "LstPerson": [
+      {
+        "BirthDate": "01/01/1956",
+        "CompanyName": null,
+        "ForeName": "Peter John",
+        "Height": null,
+        "PNC_ID": "01/123456W",
+        "PersonNumber": null,
+        "SurName": "PARKER",
+        "TelephoneNumber": "01111 111111"
+      }
+    ],
+    "LstWeapon": [
+      {
+        "ActionDescription": "OVER/UNDER",
+        "CalliberDescription": null,
+        "CertificateNumber": "N11111B",
+        "CertificateType": "D",
+        "ExpiryDate": "01/01/2019",
+        "ManufacturerDescription": "BERETTA",
+        "SecurityTypeDescription": "BOLTED TO FLOOR IN HALL",
+        "SerialNumber": "41/D/00000111111",
+        "Status": "L",
+        "ValidFrom": "01/01/2014",
+        "WeaponLocation": "B.S. Cabinet",
+        "WeaponTypeDescription": "Shot Gun"
+      }
+    ]
+  },
+  "SearchResult": null,
+  "securityToken": null
+}

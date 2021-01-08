@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlPreview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_variant1">
+
+    <ImageView
+        android:id="@+id/ivPreviewImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+
+    <ImageView
+        android:id="@+id/ivCancel"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="@dimen/dp60"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cross_button" />
+
+
+</RelativeLayout>

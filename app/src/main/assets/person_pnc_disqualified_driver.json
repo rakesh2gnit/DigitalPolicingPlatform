@@ -1,0 +1,50 @@
+{
+  "BaseDataContract": {
+    "CollarId": null,
+    "ComponentName": null,
+    "ComponentVersionNo": null,
+    "ConnectionString": null,
+    "CurrentPage": 0,
+    "DevicePhoneNo": null,
+    "DistrictCode": null,
+    "EndPoint": null,
+    "ExternalURL": null,
+    "FDSRequestString": "<FDSRequestString><FirstName>Rice</FirstName><LastName>Rice</LastName><DOB></DOB><ApproxAge></ApproxAge><PostCode></PostCode><ReasonCode>01-Vehicle and/or person stopped</ReasonCode><VRM></VRM><Make></Make><Model></Model><Color></Color><HouseNo></HouseNo><Road></Road><City></City><County></County><Locality></Locality><UniqueID>95/1319D</UniqueID><TabName>DISQALIFIEDDRIVER</TabName><SearchType>NOMINAL</SearchType></FDSRequestString>",
+    "ForceCode": null,
+    "Function": null,
+    "GeoCoordinates": null,
+    "IMEINo": null,
+    "LayerName": null,
+    "Location": null,
+    "PNCDATA": null,
+    "Process": "PNC",
+    "PropertyExt1": null,
+    "PropertyExt2": null,
+    "PropertyExt3": "PNC",
+    "PropertyExt4": null,
+    "PropertyExt5": null,
+    "ReasonCode": null,
+    "Screen": null,
+    "ScreenName": null,
+    "SecurityContext": null,
+    "Session": null,
+    "SessionID": null,
+    "StationCode": null,
+    "SubProcess": null,
+    "SubProcessName": null,
+    "TotalPageCount": 0,
+    "TotalRecordCount": 0,
+    "TransactionId": null,
+    "connectionStringIMAN": null
+  },
+  "DisqualifiedDriverList": [
+    {
+      "Court": "DAVENTRY MAGISTRATES ON 02/03/00",
+      "DateEffectiveFrom": "02/03/00",
+      "FsRef": "34ND/1647/02032000",
+      "Note": "DVLA UNCONFIRMED",
+      "Status": "DISQUALIFIED FOR LIFE",
+      "Text": "CAUSING DEATH BY DANGEROUS DRIVING"
+    }
+  ]
+}

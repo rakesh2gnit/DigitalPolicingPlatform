@@ -1,0 +1,115 @@
+{
+  "vehicleList": [
+    {
+      "system": "ATHENA",
+      "vehicle": [
+        {
+          "vrm": "Honda120",
+          "make": "Honda",
+          "model": "City",
+          "color": "white"
+        },
+        {
+          "vrm": "Honda121",
+          "make": "Honda",
+          "model": "City",
+          "color": "black"
+        },
+        {
+          "vrm": "Hyundai120",
+          "make": "Hyundai",
+          "model": "i20",
+          "color": "white"
+        },
+        {
+          "vrm": "Hyundai120",
+          "make": "Hyundai",
+          "model": "i10",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "system": "PNC",
+      "vehicle": [
+        {
+          "vrm": "Honda123",
+          "make": "Honda",
+          "model": "Amaze",
+          "color": "white"
+        },
+        {
+          "vrm": "Honda125",
+          "make": "Honda",
+          "model": "City",
+          "color": "black"
+        },
+        {
+          "vrm": "Hyundai127",
+          "make": "Hyundai",
+          "model": "i20",
+          "color": "red"
+        },
+        {
+          "vrm": "Hyundai129",
+          "make": "Hyundai",
+          "model": "Verna",
+          "color": "grey"
+        },
+        {
+          "vrm": "Maruti11",
+          "make": "Maruti",
+          "model": "Baleno",
+          "color": "grey"
+        },
+        {
+          "vrm": "Maruti12",
+          "make": "Maruti",
+          "model": "WagonR",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "system": "STOPS",
+      "vehicle": [
+        {
+          "vrm": "Honda133",
+          "make": "Honda",
+          "model": "Brio",
+          "color": "white"
+        },
+        {
+          "vrm": "Honda145",
+          "make": "Honda",
+          "model": "City",
+          "color": "Red"
+        },
+        {
+          "vrm": "Hyundai157",
+          "make": "Hyundai",
+          "model": "i20",
+          "color": "Blue"
+        },
+        {
+          "vrm": "Hyundai129",
+          "make": "Hyundai",
+          "model": "Sonata",
+          "color": "grey"
+        },
+        {
+          "vrm": "Maruti21",
+          "make": "Maruti",
+          "model": "Desire",
+          "color": "grey"
+        },
+        {
+          "vrm": "Maruti22",
+          "make": "Maruti",
+          "model": "WagonR",
+          "color": "blue"
+        }
+      ]
+    }
+  ]
+}

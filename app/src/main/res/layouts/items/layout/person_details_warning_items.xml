@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvWarningLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNA E+W Take Sample"
+        android:drawablePadding="@dimen/dp10"
+        android:drawableStart="@drawable/ic_warning"
+        android:textColor="@color/proceedtouched"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWarningDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:layout_marginStart="@dimen/dp35"
+        android:textColor="@color/black_variant_4"
+        android:textSize="@dimen/sp12"/>
+
+</LinearLayout>
